@@ -20,7 +20,7 @@ driver = webdriver.Chrome(service=service, options=options)
 # I opted to make a function that scrapes a whole season, with a given link, to organise our data how it suits us
 # Whether it is to work on multiple leagues in a single season, or a single league during multiple seasons
 
-def scrape_season(season_link):
+def scrape_season(season_name, season_link):
 
     driver.get(season_link)
 
@@ -248,12 +248,26 @@ def scrape_season(season_link):
     driver.quit()
 
     # We'll save our dataframe in a csv file
-    # we'll call it for example PL23-24, because it'll be the season I'll test with
+    # we'll call it for the seasons that we want and store them in the data directory
 
-    matches_data.to_csv('PL23-24.csv')
+    matches_data.to_csv(f'data/{season_name}.csv')
 
     return
 
-# And finally, we'll test our function with the premiere league's 2023/24 season:
+# And finally, we'll test our function with the La Liga and Ligue 1 seasons:
 
-scrape_season("https://www.flashscore.com/football/england/premier-league-2023-2024/#/I3O5jpB2")
+liga_seasons = {
+    'Liga23-24': "https://www.flashscore.com/football/spain/laliga-2023-2024/#/SbZJTabs",
+    'Liga22-23': "https://www.flashscore.com/football/spain/laliga-2022-2023/#/COQ6iu30",
+    'Liga21-22': "https://www.flashscore.com/football/spain/laliga-2021-2022/#/MPV5cuep",
+    'Liga20-21': "https://www.flashscore.com/football/spain/laliga-2020-2021/#/I58n6IRP",
+}
+
+ligue1_seasons = {
+    'Ligue1_22-23': "https://www.flashscore.com/football/france/ligue-1-2022-2023/#/zmkW5aIi",
+    'Ligue1_23-24': "https://www.flashscore.com/football/france/ligue-1-2023-2024/#/Q1sSPOn5",
+    'Ligue1_21-22': "https://www.flashscore.com/football/france/ligue-1-2021-2022/#/0W4LIGb1",
+    'Ligue1_20-21': "https://www.flashscore.com/football/france/ligue-1-2020-2021/#/6upiPpqU"
+}
+
+scrape_season("Ligue1_21-22", ligue1_seasons["Ligue1_21-22"])
