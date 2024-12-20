@@ -1,0 +1,368 @@
+Home team name,Away team name,Home score,Away score,Home xG,Away xG,Home odds,Draw odds,Away odds,Home ranking,Away ranking
+Osasuna,Sevilla,2,1,12,10,3.1,3.1,2.55,20.0,20.0
+Celta Vigo,Espanyol,2,2,8,10,1.72,3.6,4.75,20.0,20.0
+Valladolid,Villarreal,0,3,12,10,3.3,3.4,2.2,20.0,20.0
+Barcelona,Rayo Vallecano,0,0,21,4,1.22,6.5,12.0,20.0,20.0
+Cadiz CF,Real Sociedad,0,1,7,15,3.8,3.0,2.15,20.0,20.0
+Valencia,Girona,1,0,17,5,1.85,3.5,4.33,20.0,20.0
+Almeria,Real Madrid,1,2,10,29,7.0,4.75,1.44,20.0,20.0
+Ath Bilbao,Mallorca,0,0,23,6,1.57,3.75,7.0,20.0,20.0
+Getafe,Atl. Madrid,0,3,10,12,5.5,3.1,1.83,20.0,20.0
+Betis,Elche,3,0,17,4,1.57,4.0,5.5,20.0,20.0
+Espanyol,Rayo Vallecano,0,2,13,8,2.5,3.1,3.0,9.0,11.0
+Sevilla,Valladolid,1,1,18,6,1.5,4.2,7.0,14.0,18.0
+Osasuna,Cadiz CF,2,0,16,9,1.9,3.3,4.5,5.0,16.0
+Mallorca,Betis,1,2,13,8,3.25,3.2,2.3,12.0,5.0
+Celta Vigo,Real Madrid,1,4,15,16,5.0,4.2,1.65,9.0,8.0
+Ath Bilbao,Valencia,1,0,12,10,1.66,3.75,5.25,10.0,8.0
+Atl. Madrid,Villarreal,0,2,13,19,1.85,3.4,4.5,7.0,6.0
+Real Sociedad,Barcelona,1,4,10,15,3.5,3.4,2.1,7.0,10.0
+Elche,Almeria,1,1,13,12,2.3,3.2,3.3,20.0,17.0
+Girona,Getafe,3,1,12,7,2.3,2.87,3.75,18.0,20.0
+Girona,Celta Vigo,0,1,11,11,2.75,3.1,2.7,8.0,16.0
+Betis,Osasuna,1,0,7,12,1.8,3.6,4.33,3.0,4.0
+Elche,Real Sociedad,0,1,12,9,3.75,3.3,2.05,18.0,12.0
+Rayo Vallecano,Mallorca,0,2,15,9,2.05,3.3,3.8,7.0,15.0
+Almeria,Sevilla,2,1,11,13,3.4,3.4,2.2,15.0,14.0
+Getafe,Villarreal,0,0,8,11,4.75,3.75,1.7,20.0,2.0
+Barcelona,Valladolid,4,0,24,8,1.14,9.5,15.0,6.0,17.0
+Espanyol,Real Madrid,1,3,15,19,5.75,4.33,1.5,16.0,4.0
+Cadiz CF,Ath Bilbao,0,4,9,20,3.75,3.25,2.1,20.0,7.0
+Valencia,Atl. Madrid,0,1,12,13,4.2,3.3,1.95,13.0,12.0
+Celta Vigo,Cadiz CF,3,0,9,7,1.6,3.75,6.0,12.0,20.0
+Mallorca,Girona,1,1,11,10,2.1,3.1,3.9,10.0,13.0
+Real Madrid,Betis,2,1,22,8,1.36,5.25,7.0,1.0,2.0
+Real Sociedad,Atl. Madrid,1,1,12,15,2.9,3.0,2.7,9.0,8.0
+Sevilla,Barcelona,0,3,9,18,4.5,3.75,1.72,15.0,3.0
+Osasuna,Rayo Vallecano,2,1,13,5,2.1,3.0,4.0,9.0,11.0
+Ath Bilbao,Espanyol,0,1,17,9,1.5,4.2,6.5,6.0,15.0
+Villarreal,Elche,4,0,18,7,1.4,4.75,7.5,5.0,16.0
+Valencia,Getafe,5,1,24,7,1.9,3.1,4.5,15.0,17.0
+Valladolid,Almeria,1,0,14,12,2.2,3.4,3.3,17.0,13.0
+Girona,Valladolid,2,1,14,14,2.0,3.4,4.0,12.0,16.0
+Rayo Vallecano,Valencia,2,1,14,17,2.75,3.0,2.87,13.0,11.0
+Espanyol,Sevilla,2,3,19,11,2.5,3.2,2.9,15.0,17.0
+Cadiz CF,Barcelona,0,4,6,16,8.5,5.25,1.33,20.0,2.0
+Atl. Madrid,Celta Vigo,4,1,10,14,1.85,3.4,4.5,7.0,8.0
+Real Madrid,Mallorca,4,1,22,5,1.3,5.75,8.5,2.0,13.0
+Elche,Ath Bilbao,1,4,9,16,4.5,3.6,1.75,18.0,7.0
+Getafe,Real Sociedad,2,1,8,13,4.2,3.1,2.0,18.0,10.0
+Betis,Villarreal,1,0,16,14,2.9,3.3,2.4,6.0,3.0
+Almeria,Osasuna,0,1,7,15,2.9,3.1,2.55,14.0,7.0
+Valladolid,Cadiz CF,0,1,18,7,2.0,3.4,3.8,17.0,20.0
+Mallorca,Almeria,1,0,5,9,1.95,3.25,4.5,13.0,14.0
+Barcelona,Elche,3,0,25,1,1.07,12.0,26.0,2.0,20.0
+Valencia,Celta Vigo,3,0,14,6,2.3,3.1,3.3,13.0,11.0
+Ath Bilbao,Rayo Vallecano,3,2,14,11,1.6,3.8,6.0,6.0,11.0
+Osasuna,Getafe,0,2,12,10,1.66,3.4,6.5,5.0,18.0
+Villarreal,Sevilla,1,1,17,12,1.7,3.6,5.0,6.0,16.0
+Real Sociedad,Espanyol,2,1,14,14,1.72,3.6,5.25,12.0,17.0
+Betis,Girona,2,1,9,9,1.7,3.75,5.0,4.0,11.0
+Atl. Madrid,Real Madrid,1,2,12,6,3.0,3.3,2.37,7.0,2.0
+Ath Bilbao,Almeria,4,0,17,8,1.36,5.0,9.0,4.0,16.0
+Cadiz CF,Villarreal,0,0,10,14,5.25,3.6,1.7,19.0,6.0
+Getafe,Valladolid,2,3,14,14,2.4,2.9,3.4,14.0,18.0
+Sevilla,Atl. Madrid,0,2,14,20,3.2,3.1,2.37,16.0,7.0
+Mallorca,Barcelona,0,1,13,11,9.0,5.0,1.36,10.0,2.0
+Espanyol,Valencia,2,2,10,12,2.75,3.25,2.62,17.0,9.0
+Celta Vigo,Betis,1,0,11,9,2.4,3.25,3.1,13.0,4.0
+Girona,Real Sociedad,3,5,16,11,3.25,3.2,2.3,12.0,9.0
+Real Madrid,Osasuna,1,1,22,8,1.36,5.25,7.5,2.0,8.0
+Rayo Vallecano,Elche,2,1,15,5,1.53,4.2,6.5,12.0,20.0
+Osasuna,Valencia,1,2,11,15,2.55,3.2,2.87,6.0,9.0
+Almeria,Rayo Vallecano,3,1,10,12,3.2,3.2,2.37,18.0,10.0
+Atl. Madrid,Girona,2,1,13,11,1.4,4.5,8.5,6.0,13.0
+Sevilla,Ath Bilbao,1,1,10,21,3.4,3.4,2.15,18.0,3.0
+Getafe,Real Madrid,0,1,9,19,7.0,4.5,1.4,16.0,2.0
+Valladolid,Betis,0,0,12,4,2.8,3.4,2.4,15.0,5.0
+Cadiz CF,Espanyol,2,2,8,9,2.87,3.1,2.6,19.0,18.0
+Real Sociedad,Villarreal,1,0,17,5,2.5,3.4,2.75,8.0,9.0
+Barcelona,Celta Vigo,1,0,13,14,1.28,6.0,9.5,2.0,11.0
+Elche,Mallorca,1,1,7,11,2.87,3.1,2.6,20.0,12.0
+Rayo Vallecano,Getafe,0,0,16,6,1.9,3.25,4.75,10.0,16.0
+Girona,Cadiz CF,1,1,23,9,1.9,3.3,4.5,15.0,19.0
+Valencia,Elche,2,2,20,8,1.4,4.75,7.0,7.0,20.0
+Mallorca,Sevilla,0,1,9,4,3.2,2.87,2.55,12.0,18.0
+Ath Bilbao,Atl. Madrid,0,1,13,3,2.25,3.2,3.4,3.0,4.0
+Celta Vigo,Real Sociedad,1,2,10,8,2.37,3.1,3.25,11.0,6.0
+Real Madrid,Barcelona,3,1,8,18,2.25,3.75,2.87,2.0,1.0
+Espanyol,Valladolid,1,0,15,14,2.0,3.5,4.0,18.0,15.0
+Betis,Almeria,3,1,16,12,1.53,4.2,6.0,6.0,18.0
+Villarreal,Osasuna,2,0,12,14,1.75,3.75,4.5,9.0,8.0
+Sevilla,Valencia,1,1,18,13,2.25,3.3,3.3,14.0,8.0
+Atl. Madrid,Rayo Vallecano,1,1,12,14,1.57,3.75,6.5,3.0,10.0
+Valladolid,Celta Vigo,4,1,9,22,3.1,3.2,2.37,17.0,12.0
+Cadiz CF,Betis,0,0,13,12,3.5,3.25,2.2,19.0,4.0
+Real Sociedad,Mallorca,1,0,14,12,1.55,3.8,7.0,5.0,14.0
+Elche,Real Madrid,0,3,10,10,9.5,6.0,1.25,20.0,1.0
+Almeria,Girona,3,2,13,14,2.6,3.4,2.62,18.0,17.0
+Osasuna,Espanyol,1,0,17,5,2.25,3.25,3.4,9.0,15.0
+Barcelona,Villarreal,3,0,16,5,1.45,4.5,6.5,2.0,8.0
+Rayo Vallecano,Cadiz CF,5,1,28,3,1.7,3.4,5.75,10.0,19.0
+Valladolid,Real Sociedad,1,0,9,20,4.0,3.4,1.9,11.0,3.0
+Valencia,Mallorca,1,2,13,10,1.75,3.5,5.0,9.0,15.0
+Real Madrid,Sevilla,3,1,18,9,1.36,4.75,8.0,1.0,13.0
+Espanyol,Elche,2,2,13,9,1.6,3.8,6.0,16.0,20.0
+Betis,Atl. Madrid,1,2,17,9,3.2,3.1,2.4,5.0,4.0
+Villarreal,Almeria,2,1,16,20,1.36,5.25,8.0,8.0,14.0
+Girona,Osasuna,1,1,7,9,2.5,3.2,3.0,18.0,8.0
+Barcelona,Ath Bilbao,4,0,10,5,1.44,5.0,6.5,2.0,6.0
+Celta Vigo,Getafe,1,1,17,4,1.66,3.5,5.75,16.0,18.0
+Mallorca,Espanyol,1,1,12,7,2.45,3.0,3.2,12.0,14.0
+Almeria,Celta Vigo,3,1,19,8,3.0,3.5,2.3,16.0,14.0
+Cadiz CF,Atl. Madrid,3,2,10,15,7.0,3.6,1.57,19.0,3.0
+Sevilla,Rayo Vallecano,0,1,10,15,2.05,3.3,3.8,16.0,10.0
+Valencia,Barcelona,0,1,3,13,5.5,4.5,1.53,10.0,2.0
+Osasuna,Valladolid,2,0,20,7,1.8,3.75,4.5,9.0,11.0
+Real Madrid,Girona,1,1,19,8,1.25,5.5,11.0,2.0,19.0
+Ath Bilbao,Villarreal,1,0,19,6,2.05,3.5,3.6,8.0,7.0
+Real Sociedad,Betis,0,2,14,10,2.05,3.2,4.0,4.0,6.0
+Elche,Getafe,0,1,12,8,2.62,2.9,3.0,20.0,18.0
+Girona,Ath Bilbao,2,1,19,11,3.6,3.5,2.1,17.0,6.0
+Getafe,Cadiz CF,0,0,13,15,2.1,3.0,4.2,15.0,19.0
+Valladolid,Elche,2,1,16,4,1.9,3.5,4.0,11.0,20.0
+Celta Vigo,Osasuna,1,2,13,8,2.2,3.3,3.4,17.0,7.0
+Barcelona,Almeria,2,0,27,4,1.12,9.5,17.0,2.0,15.0
+Atl. Madrid,Espanyol,1,1,27,6,1.53,4.2,6.0,3.0,16.0
+Real Sociedad,Valencia,1,1,9,14,1.95,3.4,4.2,6.0,11.0
+Betis,Sevilla,1,1,9,22,2.05,3.1,4.0,4.0,19.0
+Rayo Vallecano,Real Madrid,3,2,15,16,4.75,3.6,1.72,9.0,2.0
+Elche,Girona,1,2,11,21,3.5,3.4,2.1,20.0,14.0
+Ath Bilbao,Valladolid,3,0,19,8,1.4,4.5,7.5,7.0,10.0
+Osasuna,Barcelona,1,2,15,9,5.75,4.2,1.53,6.0,1.0
+Sevilla,Real Sociedad,1,2,6,17,2.45,3.3,2.9,17.0,7.0
+Almeria,Getafe,1,0,8,11,2.05,3.2,4.0,15.0,14.0
+Espanyol,Villarreal,0,1,14,10,2.62,3.5,2.55,16.0,9.0
+Mallorca,Atl. Madrid,1,0,9,17,3.8,2.87,2.25,12.0,5.0
+Rayo Vallecano,Celta Vigo,0,0,10,11,2.05,3.1,4.0,9.0,18.0
+Valencia,Betis,3,0,15,5,2.2,3.4,3.4,12.0,5.0
+Real Madrid,Cadiz CF,2,1,18,10,1.22,7.0,11.0,2.0,19.0
+Girona,Rayo Vallecano,2,2,16,12,2.1,3.4,3.4,13.0,8.0
+Betis,Ath Bilbao,0,0,9,10,3.0,3.25,2.4,6.0,4.0
+Atl. Madrid,Elche,2,0,18,5,1.22,6.0,12.0,6.0,20.0
+Getafe,Mallorca,2,0,14,3,2.8,2.63,3.1,15.0,11.0
+Celta Vigo,Sevilla,1,1,17,7,2.2,3.2,3.3,17.0,18.0
+Cadiz CF,Almeria,1,1,12,18,2.15,3.25,3.6,19.0,15.0
+Valladolid,Real Madrid,0,2,14,19,6.5,4.75,1.44,15.0,2.0
+Barcelona,Espanyol,1,1,21,4,1.2,7.0,13.0,2.0,17.0
+Villarreal,Valencia,2,1,14,13,2.0,3.3,3.8,9.0,10.0
+Real Sociedad,Osasuna,2,0,9,11,1.91,3.3,4.33,4.0,9.0
+Elche,Celta Vigo,0,1,13,14,3.8,3.2,2.1,20.0,17.0
+Valencia,Cadiz CF,0,1,11,6,1.53,4.2,6.0,10.0,19.0
+Villarreal,Real Madrid,2,1,17,13,3.4,3.6,2.0,7.0,2.0
+Mallorca,Valladolid,1,0,13,9,2.05,3.2,4.2,11.0,15.0
+Espanyol,Girona,2,2,12,12,2.6,3.2,2.8,18.0,12.0
+Almeria,Real Sociedad,0,2,6,9,4.33,3.3,1.91,13.0,3.0
+Rayo Vallecano,Betis,1,2,15,14,2.45,3.2,3.0,8.0,7.0
+Sevilla,Getafe,2,1,11,11,1.83,3.2,5.0,19.0,13.0
+Atl. Madrid,Barcelona,0,1,20,10,3.2,3.2,2.4,5.0,1.0
+Ath Bilbao,Osasuna,0,0,17,3,1.57,3.8,6.5,7.0,9.0
+Celta Vigo,Villarreal,1,1,21,3,2.88,3.15,2.7,16.0,6.0
+Valladolid,Rayo Vallecano,0,1,9,13,2.75,3.1,2.75,16.0,9.0
+Girona,Sevilla,2,1,19,10,2.3,3.1,3.1,12.0,17.0
+Osasuna,Mallorca,1,0,15,6,2.2,3.0,3.8,9.0,10.0
+Real Sociedad,Ath Bilbao,3,1,11,6,2.25,3.0,3.6,3.0,8.0
+Getafe,Espanyol,1,2,10,10,2.38,2.88,3.4,13.0,19.0
+Almeria,Atl. Madrid,1,1,14,12,4.75,3.9,1.7,14.0,6.0
+Cadiz CF,Elche,1,1,16,12,1.89,3.35,4.75,19.0,20.0
+Mallorca,Celta Vigo,1,0,8,10,2.75,2.75,3.1,10.0,16.0
+Rayo Vallecano,Real Sociedad,0,2,14,12,2.9,3.1,2.6,9.0,3.0
+Espanyol,Betis,1,0,8,13,2.7,3.0,2.88,14.0,6.0
+Atl. Madrid,Valladolid,3,0,18,7,1.33,5.25,9.0,4.0,17.0
+Sevilla,Cadiz CF,1,0,17,4,1.75,3.6,4.75,19.0,18.0
+Villarreal,Girona,1,0,19,8,1.75,3.8,4.5,5.0,11.0
+Elche,Osasuna,1,1,13,8,2.9,3.1,2.5,20.0,7.0
+Barcelona,Getafe,1,0,8,7,1.22,6.0,13.0,1.0,16.0
+Ath Bilbao,Real Madrid,0,2,18,10,2.8,3.3,2.5,8.0,2.0
+Valencia,Almeria,2,2,16,14,1.6,4.0,5.5,13.0,15.0
+Almeria,Espanyol,3,1,19,6,2.38,3.1,3.2,14.0,13.0
+Cadiz CF,Mallorca,2,0,11,9,2.75,2.8,3.0,19.0,10.0
+Girona,Barcelona,0,1,8,8,5.5,4.33,1.55,12.0,1.0
+Sevilla,Elche,3,0,22,6,1.5,4.0,7.0,16.0,20.0
+Getafe,Betis,0,1,6,13,2.9,2.88,2.75,17.0,6.0
+Valladolid,Valencia,1,0,13,15,3.1,3.1,2.5,19.0,14.0
+Osasuna,Atl. Madrid,0,1,14,13,4.0,3.2,2.05,7.0,4.0
+Celta Vigo,Ath Bilbao,1,0,9,5,3.1,3.0,2.55,19.0,8.0
+Real Madrid,Real Sociedad,0,0,20,8,1.75,3.75,4.75,2.0,3.0
+Villarreal,Rayo Vallecano,0,1,12,11,1.73,3.6,4.75,5.0,9.0
+Betis,Barcelona,1,2,5,13,4.75,3.6,1.75,6.0,1.0
+Real Madrid,Valencia,2,0,20,4,1.36,4.75,9.0,2.0,14.0
+Ath Bilbao,Cadiz CF,4,1,17,15,1.36,4.5,10.0,9.0,18.0
+Espanyol,Osasuna,1,1,9,9,2.7,3.0,2.8,15.0,9.0
+Elche,Villarreal,3,1,18,14,5.0,3.8,1.67,20.0,5.0
+Atl. Madrid,Getafe,1,1,12,9,1.45,4.0,7.5,4.0,19.0
+Betis,Celta Vigo,3,4,15,9,2.1,3.25,3.75,6.0,16.0
+Mallorca,Real Madrid,1,0,4,20,4.75,3.5,1.8,10.0,2.0
+Girona,Valencia,1,0,20,8,2.25,3.25,3.25,13.0,16.0
+Real Sociedad,Valladolid,0,1,15,7,1.5,4.2,7.0,3.0,17.0
+Barcelona,Sevilla,3,0,16,3,1.3,5.5,9.0,1.0,15.0
+Rayo Vallecano,Almeria,2,0,15,14,1.91,3.4,4.2,8.0,14.0
+Cadiz CF,Girona,2,0,0.71,0.24,3.1,3.1,2.45,18.0,11.0
+Almeria,Betis,2,3,2.11,2.41,2.9,3.3,2.45,14.0,7.0
+Sevilla,Mallorca,2,0,2.02,0.22,1.91,3.1,5.0,17.0,10.0
+Valencia,Ath Bilbao,1,2,1.41,1.21,3.1,3.25,2.38,18.0,8.0
+Getafe,Rayo Vallecano,1,1,1.67,2.41,3.2,2.88,2.6,19.0,7.0
+Celta Vigo,Atl. Madrid,0,1,1.22,1.12,3.6,3.1,2.2,13.0,4.0
+Valladolid,Osasuna,0,0,1.62,0.82,2.38,3.1,3.3,14.0,9.0
+Villarreal,Barcelona,0,1,1.21,1.61,4.75,3.6,1.75,8.0,1.0
+Espanyol,Real Sociedad,2,3,1.21,1.49,3.8,3.1,2.1,17.0,3.0
+Real Madrid,Elche,4,0,4.21,0.57,1.2,6.5,15.0,2.0,20.0
+Girona,Almeria,6,2,3.00,1.86,1.85,3.6,4.2,11.0,15.0
+Real Sociedad,Celta Vigo,1,1,1.20,1.47,1.8,3.3,5.0,3.0,14.0
+Betis,Valladolid,2,1,2.66,1.03,1.65,4.0,5.0,5.0,14.0
+Mallorca,Villarreal,4,2,2.34,1.32,3.1,2.9,2.55,10.0,8.0
+Osasuna,Real Madrid,0,2,0.53,1.44,5.25,3.75,1.7,10.0,2.0
+Elche,Espanyol,0,1,1.77,1.39,2.63,3.0,2.9,20.0,17.0
+Rayo Vallecano,Sevilla,1,1,1.36,0.46,2.3,3.1,3.3,6.0,12.0
+Atl. Madrid,Ath Bilbao,1,0,1.23,0.81,1.95,3.3,4.2,4.0,7.0
+Barcelona,Cadiz CF,2,0,2.39,1.54,1.22,6.0,13.0,1.0,17.0
+Getafe,Valencia,1,0,1.97,1.05,3.2,2.88,2.55,19.0,18.0
+Elche,Betis,2,3,1.08,4.46,3.5,3.5,2.05,20.0,5.0
+Espanyol,Mallorca,2,1,1.39,0.75,2.6,2.8,3.25,13.0,9.0
+Cadiz CF,Rayo Vallecano,1,0,0.73,0.75,3.0,2.9,2.7,18.0,6.0
+Real Madrid,Atl. Madrid,1,1,1.79,0.32,1.83,3.5,4.5,2.0,4.0
+Ath Bilbao,Girona,2,3,1.78,1.38,1.62,4.0,5.5,7.0,11.0
+Celta Vigo,Valladolid,3,0,1.91,0.69,1.67,4.0,5.25,15.0,16.0
+Almeria,Barcelona,1,0,1.04,1.19,6.5,4.75,1.44,19.0,1.0
+Sevilla,Osasuna,2,3,2.31,1.13,1.7,3.6,5.25,14.0,11.0
+Villarreal,Getafe,2,1,1.72,0.64,1.73,3.5,5.75,9.0,19.0
+Real Sociedad,Cadiz CF,0,0,1.17,0.59,1.5,4.0,7.5,3.0,16.0
+Getafe,Girona,3,2,1.64,0.87,2.63,3.0,3.0,19.0,11.0
+Almeria,Villarreal,0,2,0.54,2.25,3.4,3.5,2.15,17.0,7.0
+Mallorca,Elche,0,1,0.94,0.95,1.65,3.5,6.0,10.0,20.0
+Atl. Madrid,Sevilla,6,1,3.44,1.61,1.6,3.8,6.0,4.0,15.0
+Valladolid,Espanyol,2,1,1.73,1.28,2.25,3.25,3.25,18.0,12.0
+Barcelona,Valencia,1,0,2.08,0.85,1.33,5.25,8.5,1.0,19.0
+Rayo Vallecano,Ath Bilbao,0,0,1.23,1.49,2.75,3.1,2.75,7.0,9.0
+Betis,Real Madrid,0,0,0.45,1.32,4.75,3.8,1.7,5.0,2.0
+Osasuna,Celta Vigo,0,0,0.55,0.25,2.6,3.1,2.88,9.0,13.0
+Cadiz CF,Getafe,2,2,1.63,3.02,2.4,2.88,3.4,15.0,16.0
+Real Madrid,Espanyol,3,1,1.75,1.25,1.22,6.5,11.0,2.0,13.0
+Elche,Valladolid,1,1,2.07,0.26,2.55,3.2,2.88,20.0,14.0
+Celta Vigo,Rayo Vallecano,3,0,2.18,1.17,2.05,3.3,3.8,12.0,7.0
+Valencia,Osasuna,1,0,1.69,0.29,2.0,3.2,4.2,19.0,8.0
+Mallorca,Real Sociedad,1,1,1.55,0.62,3.6,2.8,2.4,10.0,4.0
+Sevilla,Almeria,2,1,3.51,1.32,1.62,4.2,5.25,18.0,19.0
+Villarreal,Betis,1,1,1.88,1.12,1.65,4.0,5.0,6.0,5.0
+Ath Bilbao,Barcelona,0,1,0.94,0.95,3.5,3.3,2.15,9.0,1.0
+Girona,Atl. Madrid,0,1,0.36,2.26,3.6,3.4,2.05,12.0,3.0
+Valladolid,Ath Bilbao,1,3,1.21,2.82,4.0,3.5,1.91,14.0,9.0
+Almeria,Cadiz CF,1,1,2.30,1.34,2.05,3.4,3.6,19.0,16.0
+Rayo Vallecano,Girona,2,2,1.67,1.53,2.0,3.3,3.8,8.0,12.0
+Espanyol,Celta Vigo,1,3,1.45,1.72,3.0,3.0,2.63,16.0,12.0
+Atl. Madrid,Valencia,3,0,2.41,1.03,1.5,4.2,7.0,3.0,17.0
+Betis,Mallorca,1,0,0.86,0.19,2.0,3.1,4.5,5.0,11.0
+Real Sociedad,Elche,2,0,2.56,0.12,1.4,4.5,9.0,4.0,20.0
+Osasuna,Villarreal,0,3,1.21,1.86,3.0,3.1,2.5,9.0,6.0
+Getafe,Sevilla,2,0,1.99,1.07,2.63,3.0,2.88,18.0,13.0
+Barcelona,Real Madrid,2,1,1.75,0.62,2.2,3.4,3.25,1.0,2.0
+Mallorca,Osasuna,0,0,0.49,0.49,2.15,2.88,4.2,11.0,10.0
+Girona,Espanyol,2,1,1.77,1.09,1.91,3.5,4.2,12.0,17.0
+Ath Bilbao,Getafe,0,0,1.08,1.13,1.67,3.5,5.5,7.0,13.0
+Cadiz CF,Sevilla,0,2,1.18,1.23,3.4,3.1,2.3,15.0,14.0
+Elche,Barcelona,0,4,0.68,1.77,10.0,5.25,1.3,20.0,1.0
+Celta Vigo,Almeria,2,2,1.85,1.07,1.5,4.33,6.5,11.0,19.0
+Real Madrid,Valladolid,6,0,5.38,0.93,1.18,8.0,12.0,2.0,15.0
+Villarreal,Real Sociedad,2,0,2.92,0.92,2.55,3.1,3.0,6.0,4.0
+Atl. Madrid,Betis,1,0,1.79,0.62,1.36,4.5,9.0,3.0,5.0
+Valencia,Rayo Vallecano,1,1,2.53,0.94,2.05,3.25,3.8,19.0,8.0
+Sevilla,Celta Vigo,2,2,0.39,0.47,2.3,3.3,3.1,13.0,9.0
+Osasuna,Elche,2,1,1.18,0.73,1.8,3.5,4.75,10.0,20.0
+Espanyol,Ath Bilbao,1,2,0.95,2.55,4.0,3.2,2.05,18.0,8.0
+Real Sociedad,Getafe,2,0,2.57,0.31,1.73,3.3,6.0,4.0,14.0
+Real Madrid,Villarreal,2,3,2.79,1.77,1.45,5.0,6.0,2.0,6.0
+Valladolid,Mallorca,3,3,1.14,2.04,2.5,2.8,3.4,16.0,12.0
+Betis,Cadiz CF,0,2,1.31,3.26,1.67,3.6,5.5,6.0,16.0
+Rayo Vallecano,Atl. Madrid,1,2,0.84,2.06,4.5,3.5,1.8,9.0,3.0
+Barcelona,Girona,0,0,1.35,0.51,1.33,5.25,9.0,1.0,11.0
+Rayo Vallecano,Osasuna,2,1,0.95,0.41,1.95,3.2,4.33,9.0,8.0
+Villarreal,Valladolid,1,2,2.29,1.99,1.45,4.75,6.0,5.0,17.0
+Ath Bilbao,Real Sociedad,2,0,0.77,1.36,2.15,3.1,3.75,7.0,4.0
+Betis,Espanyol,3,1,2.17,0.67,2.05,3.3,3.8,6.0,19.0
+Cadiz CF,Real Madrid,0,2,0.83,3.42,6.0,4.2,1.53,15.0,2.0
+Girona,Elche,2,0,1.35,0.82,1.44,5.0,7.0,11.0,20.0
+Getafe,Barcelona,0,0,0.31,1.61,4.75,3.6,1.75,16.0,1.0
+Atl. Madrid,Almeria,2,1,2.59,0.14,1.22,7.5,11.0,3.0,17.0
+Valencia,Sevilla,0,2,0.42,0.39,2.05,3.4,3.6,18.0,13.0
+Celta Vigo,Mallorca,0,1,0.96,1.23,1.75,3.3,5.25,11.0,13.0
+Espanyol,Cadiz CF,0,0,1.24,1.53,2.15,3.1,3.6,19.0,16.0
+Osasuna,Betis,3,2,1.47,2.39,2.3,3.25,3.2,10.0,5.0
+Almeria,Ath Bilbao,1,2,0.87,1.79,4.5,4.0,1.67,17.0,7.0
+Valladolid,Girona,1,0,1.09,0.96,2.45,3.3,2.88,15.0,10.0
+Real Sociedad,Rayo Vallecano,2,1,0.59,0.53,1.65,3.6,5.75,4.0,9.0
+Real Madrid,Celta Vigo,2,0,1.76,0.91,1.25,6.0,10.0,2.0,12.0
+Elche,Valencia,0,2,0.68,0.82,4.2,3.6,1.85,20.0,19.0
+Barcelona,Atl. Madrid,1,0,2.33,1.37,1.95,3.25,4.0,1.0,3.0
+Mallorca,Getafe,3,1,1.64,0.11,2.63,2.63,3.4,11.0,16.0
+Sevilla,Villarreal,2,1,0.89,2.31,2.88,3.4,2.4,13.0,6.0
+Girona,Real Madrid,4,2,2.35,2.05,4.75,4.2,1.65,11.0,2.0
+Cadiz CF,Osasuna,0,1,1.35,1.06,2.05,3.2,4.0,15.0,9.0
+Betis,Real Sociedad,0,0,0.92,1.02,2.8,3.2,2.63,5.0,4.0
+Getafe,Almeria,1,2,1.66,1.79,1.85,3.5,4.5,16.0,18.0
+Atl. Madrid,Mallorca,3,1,2.69,0.97,1.33,4.75,11.0,3.0,11.0
+Rayo Vallecano,Barcelona,2,1,0.81,0.97,5.0,3.8,1.7,10.0,1.0
+Celta Vigo,Elche,1,0,1.21,1.22,1.36,5.0,8.0,13.0,20.0
+Valencia,Valladolid,2,1,0.94,0.88,1.7,3.8,5.0,18.0,14.0
+Ath Bilbao,Sevilla,0,1,0.33,1.09,1.8,3.5,4.75,7.0,13.0
+Osasuna,Real Sociedad,0,2,1.25,1.22,3.6,3.0,2.2,8.0,4.0
+Elche,Rayo Vallecano,4,0,3.13,0.98,3.75,3.4,2.0,20.0,9.0
+Real Madrid,Almeria,4,2,2.83,1.26,1.13,9.0,19.0,2.0,16.0
+Barcelona,Betis,4,0,2.92,0.18,1.36,5.0,8.0,1.0,6.0
+Cadiz CF,Valencia,2,1,1.52,1.44,3.1,2.88,2.6,17.0,15.0
+Villarreal,Celta Vigo,3,1,2.52,0.88,1.62,4.0,5.5,5.0,13.0
+Espanyol,Getafe,1,0,2.69,0.56,2.45,2.9,3.2,19.0,18.0
+Valladolid,Atl. Madrid,2,5,1.97,2.03,4.75,3.8,1.7,15.0,3.0
+Mallorca,Ath Bilbao,1,1,1.18,0.92,3.2,2.8,2.63,12.0,7.0
+Sevilla,Girona,0,2,2.28,0.88,1.91,3.5,4.2,12.0,10.0
+Barcelona,Osasuna,1,0,3.29,0.41,1.14,7.5,17.0,1.0,9.0
+Almeria,Elche,2,1,1.59,0.89,1.73,4.0,4.5,17.0,20.0
+Real Sociedad,Real Madrid,2,0,2.04,0.65,2.3,3.2,3.2,4.0,2.0
+Valencia,Villarreal,1,1,1.14,0.66,2.45,3.3,2.9,17.0,5.0
+Getafe,Celta Vigo,1,0,2.93,0.27,2.8,2.9,2.88,18.0,13.0
+Atl. Madrid,Cadiz CF,5,1,3.26,0.04,1.33,5.25,9.5,3.0,15.0
+Mallorca,Cadiz CF,1,0,1.14,0.95,2.15,2.88,4.0,12.0,15.0
+Real Sociedad,Girona,2,2,2.23,1.18,1.6,4.0,5.75,4.0,8.0
+Osasuna,Almeria,3,1,1.56,0.51,1.85,3.75,4.2,11.0,14.0
+Villarreal,Ath Bilbao,5,1,2.56,1.86,2.1,3.75,3.25,5.0,8.0
+Real Madrid,Getafe,1,0,0.86,0.62,1.55,4.0,6.0,3.0,18.0
+Celta Vigo,Valencia,1,2,0.69,1.16,2.25,3.4,3.25,13.0,17.0
+Elche,Atl. Madrid,1,0,1.31,1.68,6.5,4.75,1.44,20.0,3.0
+Valladolid,Sevilla,0,3,1.67,2.98,2.45,3.4,2.88,17.0,12.0
+Espanyol,Barcelona,2,4,2.50,2.64,6.0,4.5,1.53,19.0,1.0
+Betis,Rayo Vallecano,3,1,1.42,1.24,2.05,3.4,3.5,6.0,11.0
+Cadiz CF,Valladolid,2,0,2.11,0.58,2.15,3.4,3.3,16.0,17.0
+Girona,Villarreal,1,2,1.59,2.10,2.5,3.8,2.55,7.0,5.0
+Ath Bilbao,Celta Vigo,2,1,0.75,0.50,1.62,4.0,5.5,8.0,13.0
+Almeria,Mallorca,3,0,1.38,0.69,2.2,3.25,3.4,16.0,12.0
+Barcelona,Real Sociedad,1,2,1.61,1.69,1.7,3.75,5.0,1.0,4.0
+Valencia,Real Madrid,1,0,1.08,1.57,3.2,3.5,2.2,16.0,3.0
+Sevilla,Betis,0,0,1.05,0.11,2.0,3.5,3.75,9.0,6.0
+Real Sociedad,Almeria,1,0,2.02,0.10,1.36,5.0,8.0,4.0,15.0
+Celta Vigo,Girona,1,1,1.23,1.21,2.05,3.4,3.6,14.0,8.0
+Valladolid,Barcelona,3,1,2.50,1.50,3.6,3.75,1.95,18.0,1.0
+Villarreal,Cadiz CF,2,0,1.81,1.99,1.45,4.75,6.0,5.0,16.0
+Real Madrid,Rayo Vallecano,2,1,1.16,0.53,1.36,5.0,7.5,3.0,11.0
+Elche,Sevilla,1,1,1.39,0.77,3.3,3.5,2.15,20.0,9.0
+Espanyol,Atl. Madrid,3,3,3.65,2.67,3.0,3.5,2.3,19.0,3.0
+Betis,Getafe,0,1,1.22,0.53,2.25,3.0,3.6,6.0,18.0
+Mallorca,Valencia,1,0,0.44,2.26,3.0,3.0,2.63,12.0,13.0
+Sevilla,Real Madrid,1,2,1.03,0.60,3.2,3.5,2.2,10.0,2.0
+Valencia,Espanyol,2,2,2.35,0.75,2.0,3.5,3.6,13.0,19.0
+Rayo Vallecano,Villarreal,2,1,1.17,0.47,3.0,3.75,2.2,12.0,5.0
+Girona,Betis,1,2,1.19,2.23,1.91,3.6,3.8,9.0,6.0
+Getafe,Osasuna,2,1,2.33,0.71,2.4,2.75,3.5,16.0,8.0
+Cadiz CF,Celta Vigo,1,0,1.88,0.62,2.45,3.1,3.1,17.0,15.0
+Barcelona,Mallorca,3,0,3.63,0.09,1.25,5.75,12.0,1.0,12.0
+Atl. Madrid,Real Sociedad,2,1,0.74,1.19,2.2,3.3,3.4,3.0,4.0
+Ath Bilbao,Elche,0,1,2.49,0.65,1.36,4.5,8.5,7.0,20.0
+Almeria,Valladolid,0,0,1.55,0.45,2.2,3.3,3.3,17.0,18.0
+Villarreal,Atl. Madrid,2,2,1.58,1.71,2.63,3.75,2.45,5.0,3.0
+Real Sociedad,Sevilla,2,1,2.44,0.45,1.6,4.0,5.5,4.0,11.0
+Real Madrid,Ath Bilbao,1,1,1.64,2.18,1.65,4.0,4.75,2.0,7.0
+Osasuna,Girona,2,1,2.23,1.06,2.0,3.6,3.4,8.0,9.0
+Mallorca,Rayo Vallecano,3,0,1.49,1.26,3.0,3.2,2.45,12.0,10.0
+Valladolid,Getafe,0,0,0.86,0.42,2.0,3.3,4.0,18.0,14.0
+Espanyol,Almeria,3,3,0.64,1.95,2.4,3.6,2.75,19.0,17.0
+Elche,Cadiz CF,1,1,1.28,2.28,2.4,3.4,2.88,20.0,16.0
+Celta Vigo,Barcelona,2,1,0.53,1.28,2.7,3.6,2.45,17.0,1.0
+Betis,Valencia,1,1,0.61,1.28,2.88,3.3,2.45,6.0,16.0

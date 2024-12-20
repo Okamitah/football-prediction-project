@@ -1,0 +1,308 @@
+Home team name,Away team name,Home score,Away score,Home ranking,Away ranking
+Benfica,Arouca,4,0,20.0,20.0
+Rio Ave,Vizela,0,1,20.0,20.0
+Estoril,Famalicao,2,0,20.0,20.0
+FC Porto,Maritimo,5,1,20.0,20.0
+Santa Clara,Casa Pia,0,0,20.0,20.0
+Braga,Sporting CP,3,3,20.0,20.0
+Portimonense,Boavista,0,1,20.0,20.0
+Chaves,Vitoria Guimaraes,0,1,20.0,20.0
+Gil Vicente,Pacos Ferreira,1,0,20.0,20.0
+Famalicao,Braga,0,3,16.0,10.0
+Casa Pia,Benfica,0,1,10.0,2.0
+Sporting CP,Rio Ave,3,0,10.0,12.0
+Boavista,Santa Clara,2,1,7.0,10.0
+Vizela,FC Porto,0,1,7.0,5.0
+Vitoria Guimaraes,Estoril,1,0,7.0,6.0
+Maritimo,Chaves,1,2,17.0,13.0
+Arouca,Gil Vicente,1,0,15.0,8.0
+Pacos Ferreira,Portimonense,0,3,15.0,14.0
+Estoril,Rio Ave,2,2,8.0,15.0
+Santa Clara,Arouca,1,2,13.0,12.0
+Chaves,Vizela,1,1,11.0,10.0
+FC Porto,Sporting CP,3,0,2.0,7.0
+Casa Pia,Boavista,2,0,13.0,3.0
+Braga,Maritimo,5,0,6.0,18.0
+Portimonense,Vitoria Guimaraes,2,1,12.0,4.0
+Gil Vicente,Famalicao,0,0,13.0,17.0
+Pacos Ferreira,Estoril,0,3,17.0,8.0
+Maritimo,Portimonense,0,1,18.0,5.0
+Boavista,Benfica,0,3,7.0,5.0
+Sporting CP,Chaves,0,2,11.0,12.0
+Famalicao,Santa Clara,1,0,16.0,14.0
+Arouca,Braga,0,6,8.0,4.0
+Rio Ave,FC Porto,3,1,16.0,3.0
+Vitoria Guimaraes,Casa Pia,0,1,7.0,10.0
+Vizela,Gil Vicente,2,2,11.0,12.0
+Benfica,Pacos Ferreira,3,2,2.0,17.0
+Benfica,Vizela,2,1,1.0,11.0
+Estoril,Sporting CP,0,2,5.0,14.0
+Braga,Vitoria Guimaraes,1,0,2.0,9.0
+Gil Vicente,FC Porto,0,2,12.0,3.0
+Casa Pia,Arouca,0,0,6.0,11.0
+Santa Clara,Maritimo,2,1,16.0,18.0
+Portimonense,Famalicao,1,0,4.0,16.0
+Boavista,Pacos Ferreira,1,0,11.0,17.0
+Chaves,Rio Ave,1,1,8.0,14.0
+Vitoria Guimaraes,Santa Clara,1,0,11.0,15.0
+Famalicao,Benfica,0,1,16.0,1.0
+Sporting CP,Portimonense,4,0,10.0,4.0
+FC Porto,Chaves,3,0,3.0,9.0
+Pacos Ferreira,Casa Pia,2,3,17.0,8.0
+Maritimo,Gil Vicente,1,2,18.0,14.0
+Arouca,Boavista,1,2,12.0,8.0
+Rio Ave,Braga,2,3,14.0,3.0
+Vizela,Estoril,0,1,13.0,11.0
+Portimonense,Chaves,1,0,4.0,10.0
+Santa Clara,Pacos Ferreira,1,1,15.0,17.0
+Gil Vicente,Rio Ave,2,2,10.0,14.0
+Estoril,FC Porto,1,1,8.0,3.0
+Boavista,Sporting CP,2,1,5.0,8.0
+Arouca,Vitoria Guimaraes,2,2,12.0,9.0
+Casa Pia,Famalicao,1,0,7.0,16.0
+Benfica,Maritimo,5,0,1.0,18.0
+Braga,Vizela,2,0,2.0,14.0
+Sporting CP,Gil Vicente,3,1,8.0,10.0
+FC Porto,Braga,4,1,3.0,2.0
+Vizela,Portimonense,1,0,15.0,4.0
+Chaves,Estoril,1,1,11.0,8.0
+Vitoria Guimaraes,Benfica,0,0,9.0,1.0
+Rio Ave,Santa Clara,1,0,14.0,15.0
+Pacos Ferreira,Arouca,1,1,17.0,14.0
+Famalicao,Boavista,4,0,16.0,5.0
+Maritimo,Casa Pia,1,2,18.0,6.0
+Gil Vicente,Estoril,0,1,12.0,8.0
+Santa Clara,Sporting CP,1,2,16.0,8.0
+Portimonense,FC Porto,0,2,7.0,3.0
+Benfica,Rio Ave,4,2,1.0,10.0
+Pacos Ferreira,Vitoria Guimaraes,0,1,17.0,9.0
+Boavista,Maritimo,1,1,8.0,18.0
+Casa Pia,Vizela,0,1,4.0,14.0
+Braga,Chaves,0,1,3.0,11.0
+Arouca,Famalicao,4,1,14.0,15.0
+FC Porto,Benfica,0,1,2.0,1.0
+Famalicao,Pacos Ferreira,2,1,15.0,17.0
+Estoril,Braga,0,2,7.0,3.0
+Sporting CP,Casa Pia,3,1,5.0,4.0
+Vizela,Santa Clara,0,1,12.0,16.0
+Maritimo,Arouca,1,1,18.0,11.0
+Chaves,Gil Vicente,3,1,11.0,15.0
+Vitoria Guimaraes,Boavista,3,2,10.0,6.0
+Rio Ave,Portimonense,1,0,14.0,10.0
+Pacos Ferreira,Maritimo,0,1,17.0,18.0
+Santa Clara,FC Porto,1,1,16.0,3.0
+Benfica,Chaves,5,0,1.0,9.0
+Arouca,Sporting CP,1,0,11.0,4.0
+Portimonense,Estoril,1,1,10.0,9.0
+Boavista,Vizela,2,2,10.0,13.0
+Casa Pia,Rio Ave,1,0,5.0,12.0
+Gil Vicente,Braga,0,1,16.0,3.0
+Vitoria Guimaraes,Famalicao,3,2,6.0,14.0
+Gil Vicente,Portimonense,1,2,16.0,9.0
+Vizela,Arouca,0,1,12.0,10.0
+FC Porto,Pacos Ferreira,4,0,3.0,18.0
+Sporting CP,Vitoria Guimaraes,3,0,6.0,5.0
+Rio Ave,Boavista,1,0,12.0,9.0
+Maritimo,Famalicao,0,0,17.0,14.0
+Braga,Casa Pia,0,1,3.0,5.0
+Estoril,Benfica,1,5,10.0,1.0
+Chaves,Santa Clara,0,0,12.0,15.0
+Arouca,Rio Ave,0,1,8.0,12.0
+Boavista,FC Porto,1,4,10.0,2.0
+Vitoria Guimaraes,Maritimo,1,0,6.0,17.0
+Pacos Ferreira,Vizela,0,2,18.0,13.0
+Portimonense,Braga,1,2,7.0,3.0
+Casa Pia,Chaves,1,2,4.0,12.0
+Benfica,Gil Vicente,3,1,1.0,16.0
+Famalicao,Sporting CP,1,2,14.0,6.0
+Santa Clara,Estoril,3,1,15.0,12.0
+Rio Ave,Maritimo,1,1,10.0,17.0
+FC Porto,Arouca,5,1,2.0,10.0
+Gil Vicente,Santa Clara,1,0,16.0,14.0
+Sporting CP,Pacos Ferreira,3,0,4.0,18.0
+Chaves,Famalicao,0,2,9.0,16.0
+Vizela,Vitoria Guimaraes,3,0,13.0,6.0
+Braga,Benfica,3,0,3.0,1.0
+Santa Clara,Braga,0,4,15.0,3.0
+Benfica,Portimonense,1,0,1.0,8.0
+Famalicao,Vizela,2,1,14.0,11.0
+Arouca,Estoril,2,0,10.0,14.0
+Vitoria Guimaraes,Rio Ave,0,0,6.0,8.0
+Casa Pia,FC Porto,0,0,6.0,3.0
+Pacos Ferreira,Chaves,1,1,18.0,10.0
+Maritimo,Sporting CP,1,0,17.0,4.0
+Boavista,Gil Vicente,1,0,13.0,16.0
+Portimonense,Santa Clara,0,0,11.0,15.0
+Vizela,Maritimo,3,0,12.0,17.0
+Rio Ave,Pacos Ferreira,0,1,9.0,18.0
+Braga,Boavista,1,0,2.0,12.0
+Chaves,Arouca,1,1,11.0,7.0
+Benfica,Sporting CP,2,2,1.0,4.0
+FC Porto,Famalicao,4,1,3.0,13.0
+Estoril,Casa Pia,2,0,14.0,5.0
+Gil Vicente,Vitoria Guimaraes,2,1,16.0,6.0
+Arouca,Portimonense,4,0,7.0,11.0
+Sporting CP,Vizela,2,1,4.0,8.0
+Pacos Ferreira,Braga,1,2,18.0,2.0
+Santa Clara,Benfica,0,3,16.0,1.0
+Vitoria Guimaraes,FC Porto,0,1,7.0,3.0
+Maritimo,Estoril,1,0,17.0,13.0
+Casa Pia,Gil Vicente,1,3,6.0,15.0
+Famalicao,Rio Ave,0,0,15.0,10.0
+Boavista,Chaves,1,1,12.0,10.0
+Pacos Ferreira,Benfica,0,2,18.0,1.0
+Vizela,Rio Ave,3,1,9.0,10.0
+Casa Pia,Santa Clara,2,1,7.0,16.0
+Boavista,Portimonense,4,2,11.0,12.0
+Famalicao,Estoril,1,0,14.0,13.0
+Vitoria Guimaraes,Chaves,2,1,8.0,10.0
+Pacos Ferreira,Gil Vicente,2,1,18.0,15.0
+Arouca,Benfica,0,3,7.0,1.0
+Maritimo,FC Porto,0,2,17.0,3.0
+Sporting CP,Braga,5,0,4.0,3.0
+Santa Clara,Boavista,2,2,16.0,9.0
+Benfica,Casa Pia,3,0,1.0,5.0
+Estoril,Vitoria Guimaraes,0,1,14.0,6.0
+Chaves,Maritimo,2,1,10.0,17.0
+Braga,Famalicao,4,1,3.0,12.0
+FC Porto,Vizela,2,0,3.0,10.0
+Gil Vicente,Arouca,1,1,15.0,7.0
+Portimonense,Pacos Ferreira,1,0,13.0,18.0
+Rio Ave,Sporting CP,0,1,12.0,4.0
+Estoril,Boavista,2,1,14.0,9.0
+Vizela,Chaves,0,0,10.0,8.0
+Arouca,Santa Clara,1,0,7.0,16.0
+Vitoria Guimaraes,Portimonense,1,0,5.0,11.0
+Famalicao,Gil Vicente,0,1,14.0,15.0
+Sporting CP,FC Porto,1,2,4.0,2.0
+Maritimo,Braga,1,2,17.0,3.0
+Rio Ave,Estoril,2,0,14.0,12.0
+Boavista,Casa Pia,0,0,10.0,7.0
+Gil Vicente,Vizela,1,1,13.0,10.0
+Portimonense,Maritimo,2,1,13.0,17.0
+Estoril,Pacos Ferreira,1,3,14.0,18.0
+FC Porto,Rio Ave,1,0,2.0,12.0
+Santa Clara,Famalicao,1,3,16.0,15.0
+Braga,Arouca,2,0,3.0,6.0
+Casa Pia,Vitoria Guimaraes,0,0,7.0,5.0
+Chaves,Sporting CP,2,3,9.0,4.0
+Benfica,Boavista,3,1,1.0,11.0
+Famalicao,Portimonense,1,0,13.0,10.0
+Arouca,Casa Pia,2,0,6.0,7.0
+Maritimo,Santa Clara,3,1,17.0,16.0
+Vizela,Benfica,0,2,9.0,1.0
+Rio Ave,Chaves,1,0,13.0,10.0
+Pacos Ferreira,Boavista,1,3,18.0,13.0
+FC Porto,Gil Vicente,1,2,2.0,14.0
+Sporting CP,Estoril,2,0,4.0,15.0
+Vitoria Guimaraes,Braga,2,1,5.0,3.0
+Boavista,Arouca,0,0,8.0,6.0
+Benfica,Famalicao,2,0,1.0,10.0
+Estoril,Vizela,0,3,15.0,11.0
+Portimonense,Sporting CP,0,1,14.0,4.0
+Chaves,FC Porto,1,3,13.0,2.0
+Gil Vicente,Maritimo,2,0,12.0,16.0
+Santa Clara,Vitoria Guimaraes,1,3,17.0,5.0
+Braga,Rio Ave,2,0,3.0,11.0
+Casa Pia,Pacos Ferreira,2,1,10.0,18.0
+FC Porto,Estoril,3,2,2.0,15.0
+Pacos Ferreira,Santa Clara,1,0,18.0,17.0
+Chaves,Portimonense,2,0,13.0,14.0
+Vitoria Guimaraes,Arouca,0,2,5.0,6.0
+Vizela,Braga,0,4,9.0,3.0
+Rio Ave,Gil Vicente,2,1,12.0,10.0
+Maritimo,Benfica,0,3,16.0,1.0
+Sporting CP,Boavista,3,0,4.0,9.0
+Famalicao,Casa Pia,1,0,13.0,7.0
+Santa Clara,Rio Ave,0,2,17.0,8.0
+Portimonense,Vizela,0,1,14.0,11.0
+Benfica,Vitoria Guimaraes,5,1,1.0,5.0
+Arouca,Pacos Ferreira,1,1,6.0,18.0
+Estoril,Chaves,0,2,15.0,13.0
+Casa Pia,Maritimo,2,0,9.0,17.0
+Braga,FC Porto,0,0,3.0,2.0
+Boavista,Famalicao,1,2,12.0,11.0
+Estoril,Gil Vicente,1,0,15.0,13.0
+Vizela,Casa Pia,3,1,10.0,7.0
+Vitoria Guimaraes,Pacos Ferreira,0,0,5.0,16.0
+Sporting CP,Santa Clara,3,0,4.0,18.0
+Maritimo,Boavista,4,2,17.0,12.0
+Chaves,Braga,1,2,11.0,3.0
+Rio Ave,Benfica,0,1,9.0,1.0
+FC Porto,Portimonense,1,0,3.0,14.0
+Famalicao,Arouca,0,1,10.0,6.0
+Gil Vicente,Sporting CP,0,0,13.0,4.0
+Santa Clara,Vizela,0,1,18.0,7.0
+Benfica,FC Porto,1,2,1.0,2.0
+Boavista,Vitoria Guimaraes,2,1,13.0,6.0
+Arouca,Maritimo,1,0,5.0,16.0
+Portimonense,Rio Ave,2,2,14.0,9.0
+Pacos Ferreira,Famalicao,1,3,17.0,10.0
+Braga,Estoril,4,1,3.0,15.0
+Casa Pia,Sporting CP,3,4,9.0,4.0
+Gil Vicente,Chaves,0,0,13.0,12.0
+Famalicao,Vitoria Guimaraes,2,1,8.0,6.0
+Maritimo,Pacos Ferreira,3,1,16.0,17.0
+Estoril,Portimonense,0,1,15.0,14.0
+Chaves,Benfica,1,0,11.0,1.0
+FC Porto,Santa Clara,2,1,2.0,18.0
+Rio Ave,Casa Pia,1,1,11.0,10.0
+Braga,Gil Vicente,1,0,3.0,13.0
+Sporting CP,Arouca,1,1,4.0,5.0
+Vizela,Boavista,1,1,8.0,12.0
+Casa Pia,Braga,0,1,10.0,3.0
+Famalicao,Maritimo,3,2,8.0,16.0
+Boavista,Rio Ave,3,2,12.0,11.0
+Pacos Ferreira,FC Porto,0,2,17.0,3.0
+Portimonense,Gil Vicente,1,0,14.0,13.0
+Santa Clara,Chaves,1,1,18.0,10.0
+Benfica,Estoril,1,0,1.0,15.0
+Arouca,Vizela,1,0,5.0,8.0
+Vitoria Guimaraes,Sporting CP,0,2,7.0,4.0
+Rio Ave,Arouca,1,0,12.0,5.0
+Maritimo,Vitoria Guimaraes,1,2,16.0,7.0
+Braga,Portimonense,4,1,3.0,13.0
+Vizela,Pacos Ferreira,1,2,8.0,17.0
+Chaves,Casa Pia,1,0,10.0,12.0
+Gil Vicente,Benfica,0,2,14.0,1.0
+Estoril,Santa Clara,3,0,15.0,18.0
+FC Porto,Boavista,1,0,3.0,11.0
+Sporting CP,Famalicao,2,1,4.0,7.0
+Casa Pia,Portimonense,1,1,12.0,13.0
+Santa Clara,Gil Vicente,3,2,18.0,14.0
+Boavista,Estoril,1,0,12.0,15.0
+Benfica,Braga,1,0,1.0,3.0
+Maritimo,Rio Ave,2,2,16.0,11.0
+Vitoria Guimaraes,Vizela,3,0,6.0,10.0
+Pacos Ferreira,Sporting CP,0,4,17.0,4.0
+Famalicao,Chaves,1,2,7.0,8.0
+Arouca,FC Porto,0,1,5.0,2.0
+Gil Vicente,Boavista,3,1,14.0,9.0
+Vizela,Famalicao,0,0,10.0,8.0
+Chaves,Pacos Ferreira,2,0,7.0,17.0
+Portimonense,Benfica,1,5,14.0,1.0
+Sporting CP,Maritimo,2,1,4.0,16.0
+Rio Ave,Vitoria Guimaraes,0,1,11.0,6.0
+Braga,Santa Clara,5,3,3.0,18.0
+FC Porto,Casa Pia,2,1,2.0,12.0
+Estoril,Arouca,2,0,15.0,6.0
+Maritimo,Vizela,1,0,16.0,9.0
+Santa Clara,Portimonense,1,0,18.0,14.0
+Arouca,Chaves,1,0,6.0,7.0
+Boavista,Braga,1,1,10.0,3.0
+Famalicao,FC Porto,2,4,8.0,2.0
+Vitoria Guimaraes,Gil Vicente,1,0,6.0,13.0
+Pacos Ferreira,Rio Ave,3,1,18.0,11.0
+Casa Pia,Estoril,2,2,12.0,15.0
+Sporting CP,Benfica,2,2,4.0,1.0
+Rio Ave,Famalicao,2,2,11.0,8.0
+Vizela,Sporting CP,1,2,10.0,4.0
+Gil Vicente,Casa Pia,1,0,13.0,12.0
+Estoril,Maritimo,3,1,15.0,16.0
+Chaves,Boavista,1,4,7.0,9.0
+Portimonense,Arouca,0,2,15.0,6.0
+FC Porto,Vitoria Guimaraes,3,0,2.0,6.0
+Benfica,Santa Clara,3,0,2.0,18.0
+Braga,Pacos Ferreira,3,0,3.0,17.0
+Estrela,Maritimo,2,1,20.0,16.0
+Maritimo,Estrela,2,2,16.0,19.0

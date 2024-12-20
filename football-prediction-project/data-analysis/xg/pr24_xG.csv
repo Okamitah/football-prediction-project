@@ -1,0 +1,307 @@
+Home team name,Away team name,Home score,Away score,Home xG,Away xG,Home odds,Draw odds,Away odds,Home ranking,Away ranking
+Braga,Famalicao,1,2,0.89,0.59,1.53,4.5,5.5,20.0,20.0
+Gil Vicente,Portimonense,5,0,1.17,0.65,1.8,3.5,4.2,20.0,20.0
+SC Farense,Casa Pia,0,3,13,16,2.5,3.0,2.9,20.0,20.0
+Sporting CP,Vizela,3,2,1.61,0.26,1.2,5.75,15.0,20.0,20.0
+Rio Ave,Chaves,2,0,3.53,0.26,1.85,3.3,4.0,20.0,20.0
+Estrela,Vitoria Guimaraes,0,1,0.43,0.65,2.4,3.25,2.75,20.0,20.0
+Arouca,Estoril,4,3,0.51,0.57,2.0,3.25,3.6,20.0,20.0
+Moreirense,FC Porto,1,2,0.52,1.10,7.5,4.75,1.36,20.0,20.0
+Boavista,Benfica,3,2,2.20,2.23,9.0,4.75,1.33,20.0,20.0
+Casa Pia,Sporting CP,1,2,0.84,1.00,9.5,5.0,1.33,2.0,5.0
+Vitoria Guimaraes,Gil Vicente,2,1,1.04,1.44,2.0,3.4,3.6,6.0,2.0
+Chaves,Braga,2,4,1.23,0.39,5.75,4.33,1.5,16.0,10.0
+Portimonense,Boavista,1,4,1.75,2.05,3.0,3.3,2.3,18.0,10.0
+Benfica,Estrela,2,0,2.73,0.48,1.14,7.5,17.0,15.0,12.0
+Estoril,Rio Ave,2,0,1.73,0.78,2.6,3.2,2.8,13.0,6.0
+FC Porto,SC Farense,2,1,1.92,0.45,1.2,6.5,13.0,10.0,15.0
+Vizela,Arouca,2,2,1.59,0.86,2.1,3.3,3.4,13.0,9.0
+Famalicao,Moreirense,0,0,4,12,2.3,3.3,3.0,9.0,14.0
+Estrela,Estoril,2,1,1.30,1.33,2.2,3.3,3.2,15.0,10.0
+Arouca,Portimonense,1,1,0.92,0.12,1.73,3.6,4.75,6.0,18.0
+SC Farense,Chaves,5,0,2.36,1.29,2.05,3.4,3.5,17.0,18.0
+Gil Vicente,Benfica,2,3,0.05,1.58,8.0,6.5,1.29,7.0,11.0
+Boavista,Casa Pia,1,1,10,10,2.45,3.1,3.0,1.0,9.0
+Vitoria Guimaraes,Vizela,2,0,1.25,0.34,1.95,3.3,4.2,3.0,15.0
+Sporting CP,Famalicao,1,0,2.17,0.36,1.25,6.5,9.5,3.0,8.0
+Rio Ave,FC Porto,1,2,0.09,0.39,9.0,4.2,1.4,12.0,4.0
+Vizela,Gil Vicente,1,0,1.63,0.39,2.15,3.6,3.1,16.0,9.0
+Casa Pia,Rio Ave,1,1,0.49,0.39,2.05,3.5,3.4,7.0,14.0
+Portimonense,Estrela,1,1,15,10,2.55,3.3,2.75,17.0,15.0
+Famalicao,SC Farense,1,0,21,6,2.5,3.3,2.8,8.0,14.0
+Benfica,Vitoria Guimaraes,4,0,2.14,1.28,1.25,5.5,12.0,6.0,1.0
+Estoril,Boavista,1,2,0.67,0.94,2.5,3.25,2.8,15.0,5.0
+Chaves,Moreirense,1,2,0.78,0.92,2.9,3.5,2.25,18.0,17.0
+FC Porto,Arouca,1,1,2.53,0.32,1.2,7.0,13.0,4.0,8.0
+Braga,Sporting CP,1,1,0.43,0.32,3.1,4.0,2.05,14.0,4.0
+Moreirense,Braga,2,3,0.87,0.74,3.6,3.6,1.95,10.0,9.0
+Estrela,FC Porto,0,1,1.12,0.42,6.5,4.33,1.5,13.0,3.0
+Rio Ave,Famalicao,1,1,0.25,0.36,2.5,3.3,2.75,10.0,7.0
+SC Farense,Braga,3,1,3.45,1.24,4.5,3.8,1.73,15.0,7.0
+Vizela,Benfica,1,2,1.57,2.05,7.5,5.0,1.36,13.0,4.0
+Gil Vicente,Estoril,5,3,2.13,2.32,2.0,3.5,3.6,15.0,16.0
+Arouca,Casa Pia,0,1,0.40,0.94,2.8,3.2,2.55,10.0,11.0
+Vitoria Guimaraes,Portimonense,1,2,0.74,1.00,1.53,4.0,6.5,5.0,17.0
+Sporting CP,Moreirense,3,0,1.21,0.30,1.25,5.75,12.0,4.0,14.0
+Boavista,Chaves,4,1,2.11,1.69,1.7,3.6,5.0,4.0,18.0
+Famalicao,Arouca,1,0,0.12,2.67,2.05,3.25,3.6,7.0,11.0
+Moreirense,SC Farense,1,0,0.89,0.41,2.1,3.3,3.5,16.0,10.0
+Estoril,Vizela,2,2,0.72,0.22,2.55,3.3,2.75,17.0,15.0
+Casa Pia,Vitoria Guimaraes,0,0,0.68,1.21,2.45,3.1,3.0,7.0,6.0
+FC Porto,Gil Vicente,2,1,1.71,0.74,1.25,7.0,8.5,3.0,10.0
+Chaves,Estrela,2,2,1.87,1.71,2.63,3.25,2.7,18.0,16.0
+Portimonense,Benfica,1,3,1.36,1.72,15.0,6.5,1.2,16.0,4.0
+Braga,Boavista,4,1,4.11,1.07,1.5,4.0,6.0,8.0,3.0
+Sporting CP,Rio Ave,2,0,1.71,0.34,1.17,6.5,15.0,3.0,13.0
+Estrela,Braga,2,4,1.51,3.08,4.33,4.0,1.7,15.0,6.0
+Benfica,FC Porto,1,0,1.45,0.28,1.83,3.75,4.0,3.0,2.0
+Vizela,Portimonense,2,3,0.94,0.97,1.7,3.75,4.75,13.0,16.0
+Boavista,Famalicao,2,2,0.98,1.28,2.4,3.3,2.88,5.0,6.0
+SC Farense,Sporting CP,2,3,0.46,3.14,8.0,5.0,1.36,12.0,2.0
+Arouca,Chaves,0,2,0.42,1.25,1.91,3.5,4.0,13.0,18.0
+Vitoria Guimaraes,Estoril,3,2,3.25,0.87,1.75,3.6,4.5,7.0,17.0
+Rio Ave,Moreirense,0,4,1.23,1.80,2.63,3.1,2.75,14.0,10.0
+Gil Vicente,Casa Pia,2,0,0.99,0.30,2.55,3.1,2.88,11.0,9.0
+Moreirense,Boavista,1,1,0.60,0.47,1.83,3.4,3.6,8.0,4.0
+SC Farense,Vizela,0,0,0.84,0.99,2.2,3.2,3.1,12.0,14.0
+Chaves,Gil Vicente,4,2,2.15,1.01,2.5,3.4,2.45,18.0,9.0
+Braga,Rio Ave,2,1,3.00,1.96,1.25,5.0,8.5,5.0,17.0
+Estoril,Benfica,0,1,0.55,2.97,8.0,5.25,1.29,18.0,2.0
+Famalicao,Vitoria Guimaraes,1,3,2.19,1.11,2.7,3.0,2.5,7.0,6.0
+Casa Pia,Estrela,0,1,0.16,1.02,2.05,3.2,3.3,10.0,16.0
+FC Porto,Portimonense,1,0,1.24,0.59,1.17,6.5,15.0,4.0,12.0
+Sporting CP,Arouca,2,1,1.51,0.53,1.17,6.0,15.0,2.0,15.0
+Arouca,Moreirense,0,1,1.40,0.69,2.55,3.1,2.8,16.0,8.0
+Portimonense,Estoril,1,0,0.91,0.80,2.55,3.4,2.7,12.0,18.0
+Vitoria Guimaraes,Chaves,5,0,1.65,0.10,1.67,3.75,5.0,5.0,14.0
+Benfica,Casa Pia,1,1,1.13,1.35,1.22,6.0,11.0,2.0,11.0
+Gil Vicente,Braga,3,3,2.30,1.60,5.0,4.5,1.57,11.0,5.0
+Rio Ave,SC Farense,3,4,1.81,1.01,2.4,3.3,2.88,17.0,13.0
+Estrela,Famalicao,1,0,1.73,0.65,2.5,3.25,2.75,13.0,8.0
+Vizela,FC Porto,0,2,0.66,1.38,7.0,4.75,1.4,15.0,4.0
+Boavista,Sporting CP,0,2,0.55,1.90,7.5,4.75,1.36,6.0,2.0
+FC Porto,Estoril,0,1,2.36,0.44,1.2,7.0,11.0,3.0,18.0
+Chaves,Benfica,0,2,0.08,2.01,9.0,5.75,1.29,15.0,2.0
+Famalicao,Gil Vicente,3,1,0.50,0.97,2.1,3.3,3.4,8.0,11.0
+Braga,Portimonense,6,1,1.99,0.42,1.22,6.5,11.0,5.0,10.0
+Moreirense,Vitoria Guimaraes,1,0,0.67,0.59,2.75,3.3,2.45,8.0,5.0
+Casa Pia,Vizela,0,1,0.57,1.35,2.1,3.4,3.4,13.0,17.0
+Rio Ave,Boavista,2,0,1.21,0.55,2.55,3.4,2.6,18.0,7.0
+Sporting CP,Estrela,3,2,2.22,1.76,1.22,6.5,13.0,2.0,9.0
+SC Farense,Arouca,2,0,2.06,1.39,2.3,3.3,3.0,12.0,18.0
+Estoril,Casa Pia,4,0,1.80,0.51,2.38,3.25,3.0,16.0,13.0
+Portimonense,Chaves,2,1,1.21,1.16,2.2,3.5,3.2,11.0,17.0
+Vizela,Famalicao,0,0,1.55,0.80,2.3,3.1,3.1,15.0,7.0
+Estrela,Moreirense,0,1,0.42,0.95,2.7,3.3,2.55,11.0,6.0
+Vitoria Guimaraes,FC Porto,1,2,2.66,0.92,5.0,3.75,1.7,6.0,3.0
+Gil Vicente,Rio Ave,1,1,0.45,2.50,2.2,3.5,3.1,12.0,16.0
+Boavista,SC Farense,1,3,0.95,1.74,1.91,3.8,3.6,8.0,10.0
+Arouca,Braga,0,1,0.73,1.28,4.75,3.8,1.7,18.0,4.0
+Benfica,Sporting CP,2,1,1.55,0.78,2.5,3.3,2.75,2.0,1.0
+Chaves,Vizela,2,1,1.71,0.70,2.75,3.25,2.38,17.0,15.0
+SC Farense,Vitoria Guimaraes,1,2,1.38,1.06,3.0,3.6,2.05,7.0,6.0
+Rio Ave,Estrela,1,1,1.11,0.17,2.0,3.6,3.3,17.0,12.0
+Famalicao,FC Porto,0,3,0.75,0.40,6.0,4.2,1.44,8.0,3.0
+Casa Pia,Portimonense,1,0,0.78,0.84,1.85,3.4,3.6,14.0,10.0
+Braga,Estoril,3,1,3.18,0.38,1.4,5.25,5.75,4.0,14.0
+Moreirense,Benfica,0,0,0.86,1.34,5.75,4.33,1.45,6.0,1.0
+Boavista,Arouca,0,4,0.70,1.75,2.55,3.1,2.63,9.0,18.0
+Sporting CP,Gil Vicente,3,1,1.76,0.28,1.13,9.5,13.0,2.0,13.0
+Vizela,Braga,1,3,1.08,2.51,5.0,4.2,1.62,15.0,4.0
+Benfica,SC Farense,1,1,4.06,0.39,1.17,8.0,13.0,3.0,7.0
+Portimonense,Famalicao,1,1,0.60,0.98,2.5,3.2,2.88,10.0,8.0
+Vitoria Guimaraes,Sporting CP,3,2,2.36,1.91,4.5,3.8,1.7,5.0,1.0
+FC Porto,Casa Pia,3,1,3.10,1.30,1.25,6.0,9.5,4.0,11.0
+Estrela,Boavista,3,1,0.69,0.90,2.2,3.4,3.1,12.0,9.0
+Arouca,Rio Ave,2,2,1.34,2.22,2.05,3.1,3.75,18.0,15.0
+Estoril,Chaves,4,0,2.89,0.77,1.83,3.75,4.0,15.0,18.0
+Gil Vicente,Moreirense,1,1,1.49,1.47,3.25,3.3,2.2,14.0,6.0
+SC Farense,Estrela,0,0,0.71,1.17,2.05,3.4,3.5,7.0,9.0
+Rio Ave,Vizela,1,1,0.88,0.34,2.3,3.2,3.1,15.0,17.0
+Arouca,Gil Vicente,3,0,1.44,1.32,2.05,3.3,3.6,17.0,14.0
+Boavista,Vitoria Guimaraes,1,1,0.77,0.78,3.3,3.2,2.25,10.0,5.0
+Moreirense,Portimonense,5,2,1.71,1.34,1.67,3.75,5.25,6.0,11.0
+Chaves,Casa Pia,1,3,0.73,0.99,2.63,3.0,2.8,18.0,14.0
+Famalicao,Estoril,1,1,1.30,1.30,2.3,3.25,3.1,8.0,13.0
+Braga,Benfica,0,1,1.92,1.56,3.0,3.5,2.3,4.0,3.0
+Sporting CP,FC Porto,2,0,1.49,0.58,2.2,3.25,3.3,2.0,3.0
+Vizela,Moreirense,0,0,0.37,0.34,3.0,3.1,2.5,17.0,6.0
+Vitoria Guimaraes,Rio Ave,1,0,0.87,0.52,1.7,3.6,5.0,5.0,16.0
+Estrela,Arouca,1,4,0.94,3.68,2.7,3.25,2.55,9.0,14.0
+Benfica,Famalicao,3,0,1.71,0.62,1.29,6.0,9.0,2.0,8.0
+FC Porto,Chaves,1,0,1.36,0.65,1.25,6.0,12.0,3.0,18.0
+Gil Vicente,Boavista,1,0,1.36,0.51,2.3,3.3,3.0,15.0,12.0
+Estoril,SC Farense,4,0,1.26,1.77,1.83,4.0,3.8,15.0,7.0
+Casa Pia,Braga,1,3,0.85,1.36,6.0,4.33,1.53,11.0,4.0
+Portimonense,Sporting CP,1,2,0.34,1.98,8.5,5.75,1.29,15.0,2.0
+Sporting CP,Estoril,5,1,4.21,1.11,1.25,5.75,10.0,1.0,9.0
+Boavista,FC Porto,1,1,0.33,2.23,6.0,4.5,1.5,13.0,3.0
+SC Farense,Gil Vicente,1,0,2.18,1.04,2.2,3.25,3.25,7.0,14.0
+Estrela,Vizela,1,1,1.20,0.86,2.8,3.3,2.55,13.0,16.0
+Arouca,Benfica,0,3,0.96,2.43,6.5,4.5,1.5,12.0,2.0
+Braga,Vitoria Guimaraes,1,1,1.83,0.89,1.6,4.0,5.0,4.0,5.0
+Rio Ave,Portimonense,2,0,1.51,0.45,1.67,3.8,5.0,17.0,15.0
+Famalicao,Chaves,2,2,1.53,1.93,1.65,3.75,5.75,8.0,18.0
+Moreirense,Casa Pia,1,4,1.30,1.37,1.8,3.2,5.0,6.0,13.0
+Portimonense,SC Farense,1,0,1.50,0.74,2.5,3.3,2.75,16.0,7.0
+Casa Pia,Famalicao,0,2,0.55,0.55,2.7,3.0,2.7,8.0,9.0
+Chaves,Sporting CP,0,3,0.26,2.60,9.0,5.75,1.25,18.0,1.0
+Estoril,Moreirense,1,3,0.65,2.03,2.25,3.25,3.2,11.0,6.0
+Gil Vicente,Estrela,1,1,0.40,1.29,2.05,3.25,3.8,15.0,12.0
+Vizela,Boavista,1,4,2.84,1.48,1.95,3.2,4.2,17.0,13.0
+Benfica,Rio Ave,4,1,2.86,1.69,1.2,8.0,10.0,2.0,16.0
+FC Porto,Braga,2,0,1.90,1.58,1.75,3.8,4.33,3.0,4.0
+Vitoria Guimaraes,Arouca,2,1,2.23,1.39,1.95,3.6,3.6,5.0,14.0
+Famalicao,Braga,1,2,1.69,1.01,4.0,3.6,1.91,7.0,4.0
+Vizela,Sporting CP,2,5,0.89,2.58,10.0,5.5,1.3,17.0,1.0
+Benfica,Boavista,2,0,2.69,0.35,1.1,10.0,21.0,2.0,9.0
+Estoril,Arouca,1,2,2.04,1.33,2.5,3.6,2.7,13.0,14.0
+Casa Pia,SC Farense,1,3,0.87,1.11,2.25,3.1,3.4,11.0,8.0
+FC Porto,Moreirense,5,0,1.83,0.27,1.36,5.25,7.5,3.0,6.0
+Portimonense,Gil Vicente,0,2,0.18,1.51,2.55,3.3,2.8,13.0,15.0
+Chaves,Rio Ave,0,0,2.17,0.84,3.0,3.25,2.45,18.0,16.0
+Vitoria Guimaraes,Estrela,3,0,1.82,0.47,1.62,3.8,6.0,5.0,13.0
+Moreirense,Famalicao,1,0,1.35,1.07,2.55,3.1,3.1,6.0,8.0
+Boavista,Portimonense,1,4,1.77,0.53,1.91,3.4,4.2,9.0,14.0
+SC Farense,FC Porto,1,3,1.81,1.45,8.0,5.0,1.36,7.0,3.0
+Gil Vicente,Vitoria Guimaraes,1,0,0.67,0.80,3.4,3.3,2.2,12.0,5.0
+Arouca,Vizela,5,0,2.18,0.96,1.8,3.8,4.2,12.0,17.0
+Estrela,Benfica,1,4,0.53,2.50,10.0,6.0,1.25,14.0,2.0
+Sporting CP,Casa Pia,8,0,4.69,0.26,1.14,8.0,15.0,2.0,13.0
+Rio Ave,Estoril,1,1,0.66,0.92,2.2,3.5,3.25,16.0,15.0
+Braga,Chaves,1,1,3.64,0.60,1.29,5.5,10.0,4.0,18.0
+Portimonense,Arouca,1,2,2.02,2.08,3.75,3.6,2.0,11.0,8.0
+FC Porto,Rio Ave,0,0,1.28,0.16,1.18,7.0,17.0,3.0,16.0
+Vizela,Vitoria Guimaraes,0,1,0.41,1.83,4.2,3.6,1.83,17.0,5.0
+Chaves,SC Farense,1,1,0.93,1.80,2.3,3.4,3.2,18.0,8.0
+Estoril,Estrela,1,0,0.55,1.10,2.05,3.6,3.5,14.0,16.0
+Benfica,Gil Vicente,3,0,1.57,0.21,1.14,9.0,15.0,2.0,9.0
+Braga,Moreirense,1,0,0.68,0.13,1.45,4.33,7.5,5.0,6.0
+Casa Pia,Boavista,0,0,0.29,0.08,2.05,3.4,3.6,14.0,13.0
+Estrela,Portimonense,3,0,1.86,0.39,1.95,3.5,4.0,16.0,13.0
+SC Farense,Famalicao,1,1,1.56,1.01,3.1,3.1,2.5,8.0,10.0
+Moreirense,Chaves,1,0,1.70,0.87,1.91,3.25,4.5,6.0,17.0
+Boavista,Estoril,2,1,1.05,1.70,2.55,3.25,2.8,13.0,11.0
+Rio Ave,Casa Pia,1,0,0.56,0.21,2.3,3.1,3.4,16.0,15.0
+Sporting CP,Braga,5,0,2.07,0.34,1.5,4.5,6.5,2.0,4.0
+Vitoria Guimaraes,Benfica,2,2,2.34,0.88,5.25,4.0,1.62,5.0,2.0
+Arouca,FC Porto,3,2,1.52,1.54,8.0,4.33,1.44,8.0,3.0
+Gil Vicente,Vizela,0,1,0.91,0.35,2.0,3.6,3.75,11.0,18.0
+Famalicao,Rio Ave,2,1,1.21,2.34,2.15,3.2,3.75,10.0,13.0
+Chaves,Boavista,2,1,1.15,2.28,2.8,3.0,2.8,18.0,10.0
+Portimonense,Vitoria Guimaraes,1,1,1.04,1.57,4.0,3.5,1.91,15.0,5.0
+FC Porto,Estrela,2,0,2.00,0.25,1.2,7.0,13.0,3.0,15.0
+Casa Pia,Arouca,1,0,0.80,0.87,2.9,3.1,2.55,16.0,7.0
+Estoril,Gil Vicente,1,3,0.64,2.19,2.2,3.4,3.25,14.0,12.0
+Benfica,Vizela,6,1,3.62,1.60,1.13,9.0,17.0,2.0,18.0
+Braga,SC Farense,2,1,3.09,0.47,1.5,5.25,5.5,5.0,8.0
+Moreirense,Sporting CP,0,2,0.30,2.45,7.5,5.0,1.36,6.0,2.0
+Arouca,Famalicao,3,2,1.94,1.10,2.2,3.25,3.2,7.0,9.0
+SC Farense,Moreirense,0,1,0.24,0.97,2.7,3.2,2.7,8.0,6.0
+Estrela,Chaves,1,1,0.49,1.08,1.95,3.4,4.0,16.0,17.0
+Vitoria Guimaraes,Casa Pia,0,2,1.36,1.50,1.6,3.8,5.75,5.0,12.0
+Vizela,Estoril,3,3,2.42,1.22,2.3,3.4,3.0,18.0,15.0
+Gil Vicente,FC Porto,1,1,0.51,3.60,6.5,4.5,1.5,11.0,3.0
+Benfica,Portimonense,4,0,3.65,0.37,1.1,10.0,21.0,2.0,15.0
+Rio Ave,Sporting CP,3,3,2.18,0.98,12.0,6.5,1.22,16.0,2.0
+Boavista,Braga,0,4,0.81,1.61,4.75,3.8,1.7,12.0,4.0
+Chaves,Arouca,1,5,0.90,1.92,3.3,3.5,2.15,17.0,7.0
+Estoril,Vitoria Guimaraes,1,3,2.19,0.39,2.9,3.4,2.45,14.0,5.0
+Braga,Estrela,3,0,2.64,0.80,1.36,5.0,8.0,4.0,15.0
+Portimonense,Vizela,0,0,1.21,0.91,2.5,3.25,2.9,16.0,18.0
+Casa Pia,Gil Vicente,0,0,1.09,0.61,2.7,3.2,2.8,11.0,9.0
+Sporting CP,SC Farense,3,2,2.19,0.53,1.14,7.5,19.0,2.0,10.0
+FC Porto,Benfica,5,0,2.57,0.52,2.3,3.5,2.9,3.0,2.0
+Famalicao,Boavista,1,1,0.90,0.39,2.15,3.1,3.75,11.0,12.0
+Portimonense,FC Porto,0,3,0.20,2.16,11.0,7.0,1.2,14.0,3.0
+Estrela,Casa Pia,3,1,2.71,0.44,2.38,2.9,3.25,16.0,10.0
+Vizela,SC Farense,2,1,0.75,0.57,2.15,3.25,3.6,17.0,11.0
+Rio Ave,Braga,0,0,0.44,0.78,4.5,4.0,1.7,14.0,4.0
+Boavista,Moreirense,1,0,0.34,0.28,3.5,3.0,2.3,13.0,6.0
+Vitoria Guimaraes,Famalicao,1,0,3.04,1.20,2.0,3.5,3.8,5.0,10.0
+Benfica,Estoril,3,1,1.48,0.48,1.2,7.0,12.0,2.0,16.0
+Gil Vicente,Chaves,0,0,1.53,0.20,1.91,3.5,4.2,9.0,18.0
+Estoril,Portimonense,1,0,1.15,0.93,1.67,3.75,5.25,16.0,15.0
+Famalicao,Estrela,0,0,0.87,0.59,2.0,3.4,4.0,10.0,14.0
+SC Farense,Rio Ave,1,1,1.34,1.12,2.63,3.0,2.9,12.0,15.0
+Braga,Gil Vicente,2,1,1.03,1.94,1.4,5.0,7.0,4.0,8.0
+FC Porto,Vizela,4,1,2.67,0.26,1.13,8.5,19.0,3.0,17.0
+Moreirense,Arouca,1,0,0.90,0.32,2.15,3.25,3.6,6.0,7.0
+Chaves,Vitoria Guimaraes,1,2,0.80,1.66,4.0,3.3,1.95,18.0,5.0
+Casa Pia,Benfica,0,1,0.55,1.42,9.5,5.5,1.3,12.0,2.0
+Sporting CP,Boavista,6,1,4.09,0.13,1.14,8.0,17.0,2.0,10.0
+Gil Vicente,Famalicao,1,2,2.23,2.44,2.5,3.1,3.0,8.0,9.0
+Benfica,Chaves,1,0,4.11,0.63,1.14,9.0,17.0,2.0,18.0
+Estrela,Sporting CP,1,2,1.26,2.23,12.0,6.5,1.22,13.0,2.0
+Vitoria Guimaraes,Moreirense,1,0,0.76,0.34,1.91,3.4,4.2,5.0,6.0
+Arouca,SC Farense,2,1,1.56,1.94,1.73,3.75,5.0,7.0,11.0
+Boavista,Rio Ave,0,0,0.69,0.46,3.0,3.0,2.63,10.0,15.0
+Estoril,FC Porto,1,0,1.36,1.33,11.0,5.25,1.3,15.0,3.0
+Vizela,Casa Pia,0,4,0.98,0.69,2.05,3.3,3.75,17.0,13.0
+Portimonense,Braga,3,5,1.73,3.36,8.0,4.5,1.44,16.0,4.0
+SC Farense,Boavista,2,0,1.92,0.91,2.05,3.25,4.0,13.0,10.0
+Rio Ave,Gil Vicente,3,0,2.76,0.11,2.5,3.1,3.0,14.0,12.0
+Famalicao,Vizela,3,2,1.30,1.78,1.8,3.6,4.5,8.0,17.0
+Braga,Arouca,0,3,1.49,1.41,1.4,5.0,7.5,4.0,7.0
+Sporting CP,Benfica,2,1,1.01,1.18,2.05,3.6,3.6,1.0,2.0
+Chaves,Portimonense,2,3,1.14,0.93,2.15,3.4,3.4,18.0,16.0
+Moreirense,Estrela,2,2,0.97,1.87,2.2,3.1,3.4,6.0,15.0
+FC Porto,Vitoria Guimaraes,1,2,0.91,0.26,1.36,5.0,8.0,3.0,5.0
+Casa Pia,Estoril,0,0,0.60,0.49,3.1,2.88,2.6,10.0,13.0
+Gil Vicente,Sporting CP,0,4,1.59,2.15,12.0,6.0,1.25,14.0,1.0
+Vitoria Guimaraes,SC Farense,1,1,0.61,0.68,1.57,4.0,6.0,5.0,10.0
+FC Porto,Famalicao,2,2,2.72,1.45,1.29,5.75,11.0,3.0,8.0
+Estoril,Braga,0,1,0.25,1.10,5.0,4.0,1.65,12.0,5.0
+Estrela,Rio Ave,2,2,1.99,0.38,2.63,3.25,2.75,15.0,11.0
+Portimonense,Casa Pia,2,2,0.81,1.87,2.45,3.4,3.0,16.0,10.0
+Arouca,Boavista,2,1,3.05,0.42,1.7,3.8,5.0,7.0,13.0
+Benfica,Moreirense,3,0,1.66,0.28,1.25,6.0,11.0,2.0,7.0
+Vizela,Chaves,0,1,0.91,1.05,2.0,3.5,3.8,17.0,18.0
+Famalicao,Sporting CP,0,1,0.19,0.75,8.5,5.75,1.33,8.0,1.0
+Rio Ave,Arouca,1,1,0.69,1.19,2.4,3.25,3.0,11.0,6.0
+Moreirense,Gil Vicente,0,1,0.54,0.49,2.6,3.1,2.9,7.0,14.0
+Boavista,Estrela,1,1,1.35,1.20,2.9,3.1,2.6,14.0,15.0
+Braga,Vizela,2,1,2.51,0.61,1.25,6.0,11.0,4.0,18.0
+Famalicao,Portimonense,2,2,1.50,1.97,1.62,3.8,5.75,8.0,16.0
+Chaves,Estoril,2,2,1.17,0.77,3.0,3.1,2.55,17.0,14.0
+Casa Pia,FC Porto,1,2,1.01,1.69,8.5,5.5,1.33,9.0,4.0
+Sporting CP,Vitoria Guimaraes,3,0,1.77,0.27,1.2,7.0,15.0,1.0,5.0
+SC Farense,Benfica,1,3,0.67,1.76,8.5,5.5,1.33,10.0,2.0
+Gil Vicente,Arouca,2,2,1.14,2.15,2.3,3.6,2.8,12.0,6.0
+Vizela,Rio Ave,1,1,0.42,0.38,2.7,3.4,2.63,18.0,12.0
+Casa Pia,Chaves,3,1,0.76,0.97,2.0,3.3,4.0,11.0,17.0
+Benfica,Braga,3,1,2.13,0.94,1.57,4.75,5.0,2.0,4.0
+Vitoria Guimaraes,Boavista,1,0,0.20,0.42,1.75,3.6,4.75,5.0,14.0
+Portimonense,Moreirense,0,2,0.26,1.01,2.63,3.1,2.88,16.0,7.0
+Estoril,Famalicao,1,0,0.36,0.89,2.45,3.2,3.0,13.0,8.0
+FC Porto,Sporting CP,2,2,1.23,1.62,2.5,3.3,2.88,3.0,1.0
+Estrela,SC Farense,0,3,2.74,2.74,1.8,3.5,4.75,15.0,13.0
+Moreirense,Vizela,1,0,1.80,0.92,2.25,3.3,3.25,6.0,18.0
+Rio Ave,Vitoria Guimaraes,2,1,0.23,0.93,3.3,3.3,2.2,12.0,5.0
+Boavista,Gil Vicente,1,1,1.09,1.67,2.8,3.0,2.8,14.0,13.0
+Sporting CP,Portimonense,3,0,3.28,0.06,1.07,15.0,19.0,1.0,16.0
+Chaves,FC Porto,0,3,0.36,2.77,11.0,6.0,1.25,17.0,3.0
+SC Farense,Estoril,3,2,1.06,0.61,2.75,3.0,2.8,11.0,12.0
+Braga,Casa Pia,4,3,1.56,1.72,1.3,5.75,9.5,4.0,11.0
+Arouca,Estrela,0,0,0.71,0.28,2.1,3.75,3.2,7.0,15.0
+Famalicao,Benfica,2,0,0.63,1.76,7.0,5.5,1.36,9.0,2.0
+Chaves,Famalicao,0,1,0.40,1.36,3.0,3.4,2.3,17.0,8.0
+Vizela,Estrela,4,0,2.76,0.81,3.6,3.5,2.0,18.0,15.0
+Portimonense,Rio Ave,2,2,1.73,0.82,2.38,3.3,3.0,16.0,10.0
+Estoril,Sporting CP,0,1,0.22,1.30,7.0,5.5,1.36,12.0,1.0
+Vitoria Guimaraes,Braga,2,3,1.68,1.97,3.3,3.4,2.15,5.0,4.0
+Gil Vicente,SC Farense,2,0,1.81,0.67,1.7,4.0,4.5,13.0,9.0
+Casa Pia,Moreirense,0,1,0.49,0.92,2.7,3.1,2.7,12.0,6.0
+Benfica,Arouca,5,0,5.07,0.30,1.29,6.5,8.0,2.0,7.0
+FC Porto,Boavista,2,1,1.62,0.20,1.14,8.0,17.0,4.0,14.0
+Famalicao,Casa Pia,1,2,0.48,1.18,1.55,4.33,5.25,8.0,12.0
+Rio Ave,Benfica,1,1,1.32,1.46,6.5,5.25,1.36,11.0,2.0
+SC Farense,Portimonense,1,3,0.51,1.34,2.8,4.1,2.15,10.0,16.0
+Estrela,Gil Vicente,1,0,0.91,1.40,1.67,3.9,4.75,16.0,12.0
+Boavista,Vizela,2,2,1.47,1.43,2.0,3.1,4.0,16.0,17.0
+Arouca,Vitoria Guimaraes,1,3,1.88,1.09,3.1,3.5,2.2,7.0,5.0
+Sporting CP,Chaves,3,0,2.74,1.72,1.05,13.0,29.0,1.0,18.0
+Moreirense,Estoril,2,1,1.57,1.75,2.2,3.3,3.25,6.0,13.0
+Braga,FC Porto,0,1,4,19,3.25,3.6,2.1,4.0,3.0
+Portimonense,AVS,1,2,1.46,1.22,1.85,3.4,4.2,16.0,20.0
+AVS,Portimonense,2,1,1.89,1.01,2.55,3.5,2.45,19.0,16.0

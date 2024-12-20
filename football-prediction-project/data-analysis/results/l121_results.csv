@@ -1,0 +1,385 @@
+Home team name,Away team name,Home score,Away score,Home ranking,Away ranking
+Bordeaux,Nantes,0,0,20.0,20.0
+Dijon,Angers,0,1,20.0,20.0
+Lille,Rennes,1,1,20.0,20.0
+Monaco,Reims,2,2,20.0,20.0
+Nimes,Brest,4,0,20.0,20.0
+Lorient,Strasbourg,3,1,20.0,20.0
+Nice,Lens,2,1,20.0,20.0
+Lyon,Dijon,4,1,20.0,11.0
+Rennes,Montpellier,2,1,9.0,20.0
+Strasbourg,Nice,0,2,14.0,6.0
+Reims,Lille,0,1,11.0,9.0
+St Etienne,Lorient,2,0,20.0,6.0
+Nantes,Nimes,2,1,10.0,4.0
+Metz,Monaco,0,1,20.0,11.0
+Angers,Bordeaux,0,2,9.0,11.0
+Brest,Marseille,2,3,17.0,20.0
+Lens,PSG,1,0,14.0,20.0
+Bordeaux,Lyon,0,0,2.0,8.0
+Montpellier,Nice,3,1,15.0,1.0
+St Etienne,Strasbourg,2,0,9.0,19.0
+Lille,Metz,1,0,6.0,16.0
+Nimes,Rennes,2,4,9.0,7.0
+Lorient,Lens,2,3,12.0,13.0
+Dijon,Brest,0,2,18.0,19.0
+Angers,Reims,1,0,13.0,16.0
+Monaco,Nantes,2,1,10.0,9.0
+PSG,Marseille,0,1,17.0,13.0
+Montpellier,Lyon,2,1,13.0,10.0
+PSG,Metz,1,0,18.0,17.0
+Marseille,St Etienne,0,2,6.0,4.0
+Lyon,Nimes,0,0,11.0,13.0
+Lens,Bordeaux,2,1,7.0,10.0
+Rennes,Monaco,2,1,3.0,5.0
+Nice,PSG,0,3,7.0,15.0
+Strasbourg,Dijon,1,0,20.0,19.0
+Montpellier,Angers,4,1,6.0,8.0
+Metz,Reims,2,1,19.0,18.0
+Brest,Lorient,3,2,17.0,15.0
+Nantes,St Etienne,2,2,15.0,2.0
+Marseille,Lille,1,1,8.0,5.0
+Lille,Nantes,2,0,5.0,14.0
+St Etienne,Rennes,0,3,2.0,3.0
+Marseille,Metz,1,1,7.0,17.0
+Bordeaux,Nice,0,0,13.0,10.0
+Nimes,Lens,1,1,15.0,5.0
+Monaco,Strasbourg,3,2,7.0,18.0
+Dijon,Montpellier,2,2,20.0,6.0
+Angers,Brest,3,2,12.0,11.0
+Lorient,Lyon,1,1,17.0,13.0
+Reims,PSG,0,2,19.0,11.0
+PSG,Angers,6,1,7.0,8.0
+Lens,St Etienne,2,0,7.0,5.0
+Nice,Nantes,2,1,10.0,15.0
+Montpellier,Nimes,0,1,5.0,14.0
+Strasbourg,Lille,0,3,18.0,4.0
+Metz,Lorient,3,1,17.0,16.0
+Brest,Monaco,1,0,15.0,6.0
+Bordeaux,Dijon,3,0,15.0,20.0
+Rennes,Reims,2,2,2.0,19.0
+Lyon,Marseille,1,1,15.0,13.0
+Dijon,Rennes,1,1,20.0,2.0
+Nimes,PSG,0,4,13.0,4.0
+Reims,Lorient,1,3,19.0,17.0
+Marseille,Bordeaux,3,1,10.0,9.0
+Strasbourg,Lyon,2,3,18.0,14.0
+Nantes,Brest,3,1,17.0,12.0
+Monaco,Montpellier,1,1,8.0,6.0
+Angers,Metz,1,1,13.0,16.0
+St Etienne,Nice,1,3,9.0,10.0
+Lille,Lens,4,0,3.0,4.0
+Rennes,Angers,1,2,3.0,11.0
+Lorient,Marseille,0,1,17.0,7.0
+PSG,Dijon,4,0,2.0,20.0
+Montpellier,Reims,0,4,8.0,19.0
+Metz,St Etienne,2,0,14.0,11.0
+Brest,Strasbourg,0,3,14.0,19.0
+Bordeaux,Nimes,2,0,13.0,16.0
+Nice,Lille,1,1,5.0,2.0
+Lyon,Monaco,4,1,12.0,10.0
+Rennes,Brest,2,1,3.0,14.0
+Nantes,PSG,0,3,15.0,1.0
+St Etienne,Montpellier,0,1,13.0,11.0
+Reims,Strasbourg,2,1,19.0,18.0
+Nimes,Metz,0,1,17.0,11.0
+Dijon,Lorient,0,0,20.0,18.0
+Angers,Nice,0,3,10.0,6.0
+Monaco,Bordeaux,4,0,12.0,11.0
+Lille,Lyon,1,1,2.0,9.0
+Strasbourg,Marseille,0,1,19.0,5.0
+Bordeaux,Montpellier,0,2,12.0,9.0
+PSG,Rennes,3,0,1.0,3.0
+Brest,Lille,3,2,14.0,2.0
+Nimes,Angers,1,5,18.0,11.0
+Metz,Dijon,1,1,9.0,20.0
+Lorient,Nantes,0,2,16.0,17.0
+Lens,Reims,4,4,11.0,16.0
+Nice,Monaco,1,2,5.0,10.0
+Lyon,St Etienne,2,1,10.0,15.0
+Rennes,Bordeaux,0,1,3.0,12.0
+Monaco,PSG,3,2,6.0,1.0
+Brest,St Etienne,4,1,13.0,15.0
+Nantes,Metz,1,1,14.0,10.0
+Reims,Nimes,0,1,16.0,18.0
+Montpellier,Strasbourg,4,3,8.0,19.0
+Dijon,Lens,0,1,20.0,13.0
+Angers,Lyon,0,1,11.0,7.0
+Lille,Lorient,4,0,5.0,18.0
+Lens,Nantes,1,1,9.0,14.0
+Strasbourg,Rennes,1,1,19.0,7.0
+Marseille,Nantes,3,1,7.0,14.0
+PSG,Bordeaux,2,2,1.0,12.0
+Lyon,Reims,3,0,4.0,17.0
+Monaco,Nimes,3,0,5.0,15.0
+Metz,Brest,0,2,10.0,13.0
+Lorient,Montpellier,0,1,18.0,6.0
+Lens,Angers,1,3,8.0,13.0
+Nice,Dijon,1,3,11.0,20.0
+St Etienne,Lille,1,1,16.0,5.0
+Nimes,Marseille,0,2,16.0,6.0
+Rennes,Lens,0,2,7.0,9.0
+Montpellier,PSG,1,3,6.0,1.0
+Lille,Monaco,2,1,3.0,5.0
+Nantes,Strasbourg,0,4,14.0,19.0
+Dijon,St Etienne,0,0,20.0,15.0
+Bordeaux,Brest,1,0,13.0,10.0
+Angers,Lorient,2,0,10.0,19.0
+Reims,Nice,0,0,18.0,12.0
+Metz,Lyon,1,3,13.0,4.0
+St Etienne,Angers,0,0,15.0,7.0
+Marseille,Monaco,2,1,4.0,5.0
+Lens,Montpellier,2,3,8.0,6.0
+Nice,Rennes,0,1,11.0,9.0
+Strasbourg,Metz,2,2,18.0,13.0
+Nantes,Dijon,1,1,14.0,20.0
+Lorient,Nimes,3,0,20.0,17.0
+Brest,Reims,2,1,12.0,19.0
+Lille,Bordeaux,2,1,3.0,11.0
+PSG,Lyon,0,1,2.0,4.0
+Reims,Nantes,3,2,19.0,14.0
+Nimes,Nice,0,2,19.0,12.0
+Montpellier,Metz,0,2,5.0,13.0
+Dijon,Lille,0,2,20.0,1.0
+Angers,Strasbourg,0,2,7.0,17.0
+Rennes,Marseille,2,1,8.0,4.0
+PSG,Lorient,2,0,3.0,18.0
+Monaco,Lens,0,3,7.0,10.0
+Lyon,Brest,2,2,3.0,11.0
+Bordeaux,St Etienne,1,2,13.0,17.0
+Metz,Lens,2,0,12.0,7.0
+Marseille,Reims,1,1,4.0,17.0
+Nice,Lyon,1,4,12.0,3.0
+Brest,Montpellier,2,2,11.0,5.0
+Strasbourg,Bordeaux,0,2,15.0,13.0
+St Etienne,Nimes,2,2,14.0,19.0
+Nantes,Angers,1,1,17.0,11.0
+Dijon,Monaco,0,1,20.0,10.0
+Lorient,Rennes,0,3,19.0,7.0
+Lille,PSG,0,0,2.0,3.0
+Rennes,Metz,1,0,5.0,10.0
+Nimes,Dijon,1,3,18.0,20.0
+Nice,Lorient,2,2,13.0,20.0
+Lens,Brest,2,1,8.0,11.0
+Bordeaux,Reims,1,3,12.0,16.0
+PSG,Strasbourg,4,0,3.0,17.0
+Montpellier,Lille,2,3,7.0,2.0
+Monaco,St Etienne,2,2,8.0,15.0
+Lyon,Nantes,3,0,3.0,16.0
+Angers,Marseille,2,1,9.0,5.0
+Strasbourg,Nimes,5,0,17.0,20.0
+Nantes,Rennes,0,0,17.0,4.0
+Metz,Bordeaux,0,0,10.0,13.0
+Lorient,Monaco,2,5,19.0,6.0
+Brest,Nice,2,0,12.0,13.0
+St Etienne,PSG,1,1,14.0,3.0
+Reims,Dijon,0,0,15.0,18.0
+Marseille,Montpellier,3,1,6.0,8.0
+Lyon,Lens,3,2,2.0,7.0
+Lille,Angers,1,2,3.0,9.0
+Rennes,Lyon,2,2,4.0,1.0
+Reims,St Etienne,3,1,15.0,14.0
+PSG,Brest,3,0,2.0,10.0
+Nimes,Lille,0,1,20.0,3.0
+Montpellier,Nantes,1,1,9.0,17.0
+Monaco,Angers,3,0,6.0,7.0
+Metz,Nice,1,1,11.0,13.0
+Lens,Strasbourg,0,1,9.0,16.0
+Dijon,Marseille,0,0,18.0,6.0
+Bordeaux,Lorient,2,1,12.0,19.0
+Montpellier,Monaco,2,3,8.0,4.0
+Marseille,Nimes,1,2,6.0,20.0
+Angers,PSG,0,1,7.0,2.0
+Brest,Rennes,1,2,11.0,5.0
+Strasbourg,St Etienne,1,0,15.0,16.0
+Nice,Bordeaux,0,3,14.0,10.0
+Nantes,Lens,1,1,17.0,10.0
+Lille,Reims,2,1,3.0,15.0
+Lyon,Metz,0,1,3.0,12.0
+Marseille,Lens,0,1,6.0,10.0
+PSG,Montpellier,4,0,1.0,11.0
+Lens,Nice,0,1,7.0,14.0
+Monaco,Marseille,3,1,4.0,6.0
+Bordeaux,Angers,2,1,9.0,8.0
+Reims,Brest,1,0,15.0,12.0
+Metz,Nantes,2,0,10.0,17.0
+Dijon,Strasbourg,1,1,19.0,15.0
+Rennes,Lille,0,1,5.0,2.0
+St Etienne,Lyon,0,5,16.0,3.0
+Lorient,Dijon,3,2,20.0,18.0
+Lyon,Bordeaux,2,1,3.0,7.0
+Montpellier,Lens,1,2,11.0,9.0
+Nice,St Etienne,0,1,12.0,16.0
+Strasbourg,Reims,0,1,15.0,14.0
+Lorient,PSG,3,2,19.0,2.0
+Brest,Metz,2,4,13.0,9.0
+Angers,Nimes,3,1,10.0,20.0
+Lille,Dijon,1,0,3.0,19.0
+Nantes,Monaco,1,2,17.0,4.0
+Strasbourg,Brest,2,2,15.0,14.0
+Rennes,Lorient,1,1,5.0,18.0
+Reims,Angers,0,0,12.0,8.0
+Metz,Montpellier,1,1,6.0,12.0
+Bordeaux,Lille,0,3,10.0,1.0
+St Etienne,Nantes,1,1,16.0,18.0
+PSG,Nimes,3,0,3.0,20.0
+Monaco,Nice,2,1,4.0,14.0
+Lens,Marseille,2,2,7.0,9.0
+Dijon,Lyon,0,1,19.0,3.0
+Lorient,Reims,1,0,18.0,12.0
+Lyon,Strasbourg,3,0,2.0,15.0
+Lens,Rennes,0,0,7.0,5.0
+Brest,Bordeaux,2,1,13.0,10.0
+St Etienne,Metz,1,0,16.0,7.0
+Nimes,Monaco,3,4,20.0,4.0
+Nice,Angers,3,0,14.0,8.0
+Montpellier,Dijon,4,2,13.0,19.0
+Nantes,Lille,0,2,18.0,2.0
+Marseille,PSG,0,2,9.0,3.0
+PSG,Nice,2,1,3.0,13.0
+Reims,Lens,1,1,14.0,6.0
+Lyon,Montpellier,1,2,3.0,11.0
+Monaco,Lorient,2,2,4.0,17.0
+Rennes,St Etienne,0,2,5.0,15.0
+Metz,Strasbourg,1,2,7.0,16.0
+Dijon,Nimes,0,2,19.0,20.0
+Angers,Nantes,1,3,9.0,18.0
+Lille,Brest,0,0,2.0,12.0
+Bordeaux,Marseille,0,0,11.0,10.0
+Marseille,Nice,3,2,9.0,14.0
+Brest,Lyon,2,3,12.0,3.0
+St Etienne,Reims,1,1,15.0,13.0
+Nantes,Marseille,1,1,18.0,6.0
+Montpellier,Rennes,2,1,9.0,5.0
+Strasbourg,Angers,0,0,16.0,10.0
+Nimes,Bordeaux,2,0,19.0,11.0
+Nice,Metz,1,2,16.0,9.0
+Lens,Dijon,2,1,9.0,20.0
+Lorient,Lille,1,4,18.0,2.0
+PSG,Monaco,0,2,3.0,4.0
+Nimes,Lorient,1,0,19.0,18.0
+Rennes,Nice,1,2,7.0,16.0
+Bordeaux,Metz,1,2,11.0,6.0
+Dijon,PSG,0,4,20.0,3.0
+Monaco,Brest,2,0,4.0,13.0
+Reims,Montpellier,0,0,14.0,9.0
+Nimes,Nantes,1,1,17.0,18.0
+Lorient,St Etienne,2,1,19.0,15.0
+Angers,Lens,2,2,10.0,6.0
+Lille,Strasbourg,1,1,1.0,16.0
+Marseille,Lyon,1,1,8.0,3.0
+St Etienne,Lens,2,3,16.0,6.0
+Nice,Nimes,2,1,12.0,18.0
+Metz,Angers,0,1,6.0,10.0
+Lyon,Rennes,1,0,3.0,10.0
+Brest,Dijon,3,1,14.0,20.0
+Strasbourg,Monaco,1,0,15.0,4.0
+Nantes,Reims,1,2,19.0,15.0
+Montpellier,Lorient,1,1,8.0,17.0
+Lille,Marseille,2,0,2.0,8.0
+Bordeaux,PSG,0,1,14.0,3.0
+Marseille,Rennes,1,0,8.0,10.0
+Reims,Lyon,1,1,12.0,3.0
+Angers,St Etienne,0,1,9.0,16.0
+Marseille,Brest,3,1,6.0,13.0
+Nimes,Montpellier,1,1,18.0,8.0
+Rennes,Strasbourg,1,0,10.0,14.0
+Lorient,Nice,1,1,17.0,12.0
+Lens,Metz,2,2,6.0,7.0
+Dijon,Bordeaux,1,3,20.0,14.0
+Monaco,Lille,0,0,4.0,1.0
+PSG,Nantes,1,2,2.0,19.0
+St Etienne,Monaco,0,4,16.0,4.0
+Metz,Rennes,1,3,7.0,8.0
+Nice,Marseille,3,0,12.0,5.0
+Strasbourg,Lens,1,2,15.0,5.0
+Nantes,Lorient,1,1,18.0,17.0
+Montpellier,Bordeaux,3,1,9.0,12.0
+Dijon,Reims,0,1,20.0,13.0
+Brest,Angers,0,0,14.0,11.0
+Lille,Nimes,1,2,1.0,19.0
+Lyon,PSG,2,4,3.0,2.0
+Monaco,Metz,4,0,4.0,9.0
+PSG,Lille,0,1,1.0,2.0
+Lens,Lyon,1,1,5.0,4.0
+Angers,Montpellier,1,1,10.0,8.0
+Reims,Rennes,2,2,12.0,8.0
+Nantes,Nice,1,2,19.0,12.0
+Lorient,Brest,1,0,17.0,14.0
+Bordeaux,Strasbourg,2,3,13.0,15.0
+Nimes,St Etienne,0,2,18.0,16.0
+Marseille,Dijon,2,0,7.0,20.0
+Metz,Lille,0,2,9.0,1.0
+Strasbourg,PSG,1,4,13.0,2.0
+Montpellier,Marseille,3,3,8.0,6.0
+Rennes,Nantes,1,0,8.0,19.0
+St Etienne,Bordeaux,4,1,15.0,13.0
+Nice,Reims,0,0,9.0,12.0
+Lens,Lorient,4,1,5.0,17.0
+Brest,Nimes,1,1,16.0,18.0
+Monaco,Dijon,3,0,3.0,20.0
+Lyon,Angers,3,0,4.0,11.0
+Lille,Montpellier,1,1,1.0,8.0
+Angers,Rennes,0,3,11.0,7.0
+Marseille,Lorient,3,2,7.0,17.0
+PSG,St Etienne,3,2,2.0,13.0
+Reims,Metz,0,0,12.0,10.0
+Nimes,Strasbourg,1,1,18.0,14.0
+Dijon,Nice,2,0,20.0,9.0
+Brest,Lens,1,1,16.0,5.0
+Bordeaux,Monaco,0,3,16.0,3.0
+Nantes,Lyon,1,2,19.0,4.0
+Reims,Marseille,1,3,11.0,6.0
+St Etienne,Brest,1,2,13.0,15.0
+Metz,PSG,1,3,9.0,2.0
+Nice,Montpellier,3,1,9.0,8.0
+Strasbourg,Nantes,1,2,15.0,19.0
+Rennes,Dijon,5,1,7.0,20.0
+Lorient,Bordeaux,4,1,17.0,16.0
+Lens,Nimes,2,1,7.0,19.0
+Angers,Monaco,0,1,12.0,3.0
+Lyon,Lille,2,3,4.0,3.0
+Marseille,Strasbourg,1,1,6.0,15.0
+PSG,Lens,2,1,2.0,5.0
+Lille,Nice,2,0,2.0,9.0
+Bordeaux,Rennes,1,0,16.0,7.0
+Nimes,Reims,2,2,19.0,11.0
+Lorient,Angers,2,0,17.0,12.0
+Dijon,Metz,1,5,20.0,10.0
+Brest,Nantes,1,4,13.0,19.0
+Montpellier,St Etienne,1,2,8.0,14.0
+Monaco,Lyon,2,3,3.0,4.0
+Lens,Lille,0,3,5.0,1.0
+Nantes,Bordeaux,3,0,18.0,15.0
+Lyon,Lorient,4,1,4.0,17.0
+St Etienne,Marseille,1,0,12.0,5.0
+Strasbourg,Montpellier,2,3,16.0,8.0
+Nice,Brest,3,2,10.0,14.0
+Metz,Nimes,0,3,10.0,19.0
+Angers,Dijon,3,0,13.0,20.0
+Reims,Monaco,0,1,13.0,4.0
+Rennes,PSG,1,1,7.0,2.0
+PSG,Reims,4,0,2.0,13.0
+Nimes,Lyon,2,5,19.0,4.0
+Nice,Strasbourg,0,2,9.0,16.0
+Montpellier,Brest,0,0,8.0,15.0
+Monaco,Rennes,2,1,4.0,7.0
+Marseille,Angers,3,2,5.0,12.0
+Lorient,Metz,2,1,17.0,10.0
+Lille,St Etienne,0,0,2.0,11.0
+Dijon,Nantes,0,4,20.0,18.0
+Bordeaux,Lens,3,0,18.0,6.0
+Grenoble,Paris FC,2,0,20.0,20.0
+Toulouse,Grenoble,3,0,20.0,21.0
+Strasbourg,Lorient,1,1,15.0,17.0
+St Etienne,Dijon,0,1,11.0,20.0
+Rennes,Nimes,2,0,7.0,19.0
+Reims,Bordeaux,1,2,13.0,15.0
+Nantes,Montpellier,1,2,18.0,8.0
+Metz,Marseille,1,1,10.0,5.0
+Lyon,Nice,2,3,4.0,9.0
+Lens,Monaco,0,0,7.0,3.0
+Brest,PSG,0,2,17.0,2.0
+Angers,Lille,1,2,13.0,2.0
+Toulouse,Nantes,1,2,21.0,18.0
+Nantes,Toulouse,0,1,14.0,21.0
