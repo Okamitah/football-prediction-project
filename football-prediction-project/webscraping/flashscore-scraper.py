@@ -20,6 +20,11 @@ def scrape_season(season_name, season_link):
 
     service = Service()
     options = webdriver.ChromeOptions()
+    options.binary_location = "/snap/bin/chromium"
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--remote-debugging-port=9222")
     driver = webdriver.Chrome(service=service, options=options)
     driver.maximize_window()
 
@@ -167,6 +172,7 @@ def scrape_season(season_name, season_link):
             # Now we'll move to the lineups section of the match, so we get the ratings, formations and lineups:
 
             lineups_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Lineups')]")
+            driver.maximize_window()
 
             #Sometimes these buttons are stubborn, so we have to call in the big guns: ActionChains
 
@@ -175,8 +181,8 @@ def scrape_season(season_name, season_link):
 
             # We'll let our driver chill for a bit
 
+            driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
             time.sleep(2)
-            driver.execute_script("window.scrollBy(0, -window.innerHeight / 2);")
 
             home_rating = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[1]"))).text
@@ -264,6 +270,7 @@ liga_seasons = {
     'Liga22-23': "https://www.flashscore.com/football/spain/laliga-2022-2023/#/COQ6iu30",
     'Liga21-22': "https://www.flashscore.com/football/spain/laliga-2021-2022/#/MPV5cuep",
     'Liga20-21': "https://www.flashscore.com/football/spain/laliga-2020-2021/#/I58n6IRP",
+    'Liga19-20': "https://www.flashscore.com/football/spain/laliga-2019-2020/#/MNGIgau5"
 }
 
 ligue1_seasons = {
@@ -274,7 +281,7 @@ ligue1_seasons = {
 }
 
 serieA_seasons = {
-    #'SerieA20-21': "https://www.flashscore.com/football/italy/serie-a-2020-2021/#/hKAgCv61",
+    'SerieA20-21': "https://www.flashscore.com/football/italy/serie-a-2020-2021/#/hKAgCv61",
     'SerieA21-22': "https://www.flashscore.com/football/italy/serie-a-2021-2022/#/YHxmuFsJ",
     'SerieA22-23': "https://www.flashscore.com/football/italy/serie-a-2022-2023/#/UcnjEEGS",
     'SerieA23-24': "https://www.flashscore.com/football/italy/serie-a-2023-2024/#/GK3TOCxh",
@@ -289,5 +296,37 @@ bundelsiga_seasons = {
     'Bundes23-24': "https://www.flashscore.com/football/germany/bundesliga-2023-2024/#/OWq2ju22"
 }
 
-for season in serieA_seasons:
-    scrape_season(season, serieA_seasons[season])
+pl_seasons = {
+    #'PL19-20':"https://www.flashscore.com/football/england/premier-league-2019-2020/#/CxZEqxa7",
+    'PL20-21':"https://www.flashscore.com/football/england/premier-league-2020-2021/#/zTRyeuJg",
+    'PL21-22':"https://www.flashscore.com/football/england/premier-league-2021-2022/#/6kJqdMr2",
+    'PL22-23':"https://www.flashscore.com/football/england/premier-league-2022-2023/#/nunhS7Vn",
+    'PL23-24':"https://www.flashscore.com/football/england/premier-league-2023-2024/#/I3O5jpB2"
+}
+
+jupiler_seasons = {
+    'JL19-20': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2019-2020/#/QwUfxnS7",
+    'JL20-21': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2020-2021/#/lxRJcNej",
+    'JL21-22': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2021-2022/#/88GNJ4I9",
+    'JL22-23': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2022-2023/#/v3vlzrwf",
+    'JL23-24': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2023-2024/#/G6IvtOdO",
+}
+
+eredivise_seasons = {
+    'ED19-20': "https://www.flashscore.com/football/netherlands/eredivisie-2019-2020/#/Ym9YtRCF",
+    'ED20-21': "https://www.flashscore.com/football/netherlands/eredivisie-2020-2021/#/2D6NTKwA",
+    'ED21-22': "https://www.flashscore.com/football/netherlands/eredivisie-2021-2022/#/SfQjVhXC",
+    'ED22-23': "https://www.flashscore.com/football/netherlands/eredivisie-2022-2023/#/CfNLdj8j",
+    'ED23-24': "https://www.flashscore.com/football/netherlands/eredivisie-2023-2024/#/zeqqyRgJ",
+}
+
+turkiyesl_seasons = {
+    'TSL19-20': "https://www.flashscore.com/football/turkey/super-lig-2019-2020/#/A146aXLs",
+    'TSL20-21': "https://www.flashscore.com/football/turkey/super-lig-2020-2021/#/4Q6NO4a2",
+    'TSL21-22': "https://www.flashscore.com/football/turkey/super-lig-2021-2022/#/zLsIuMTj",
+    'TSL22-23': "https://www.flashscore.com/football/turkey/super-lig-2022-2023/#/lh8AshXk",
+    'TSL23-24': "https://www.flashscore.com/football/turkey/super-lig-2023-2024/#/KzRFDJ4U",
+}
+
+for season in pl_seasons:
+    scrape_season(season, pl_seasons[season])
