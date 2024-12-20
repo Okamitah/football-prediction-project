@@ -138,32 +138,32 @@ def scrape_season(season_name, season_link):
             away_score = WebDriverWait(driver, 20).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='detailScore__wrapper']/span)[3]"))).text
 
-            home_odds = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='oddsValueInner'])[1]"))).text
 
-            draw_odds = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            draw_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='oddsValueInner'])[2]"))).text
 
-            away_odds = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            away_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='oddsValueInner'])[3]"))).text
 
             # xG is the expected goals
 
-            home_xG = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_xG = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[1]"))).text
 
-            home_possession = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[2]"))).text
 
             # SOT is the shots on target
 
-            home_SOT = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_SOT = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[3]"))).text
 
-            away_xG = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            away_xG = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[1]"))).text
 
-            away_possession = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            away_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[2]"))).text
 
             away_SOT = WebDriverWait(driver, 20).until(EC.presence_of_element_located(
@@ -184,16 +184,16 @@ def scrape_season(season_name, season_link):
             driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
             time.sleep(2)
 
-            home_rating = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_rating = WebDriverWait(driver, 30).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[1]"))).text
 
-            away_rating = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            away_rating = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[2]"))).text
 
-            home_formation = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            home_formation = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='lf__headerPart'])[1]"))).text
 
-            away_formation = WebDriverWait(driver, 10000).until(EC.presence_of_element_located(
+            away_formation = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
                 (By.XPATH, "(//span[@class='lf__headerPart'])[2]"))).text
 
             # We'll store the players names elements at first in a list
@@ -297,11 +297,19 @@ bundelsiga_seasons = {
 }
 
 pl_seasons = {
-    #'PL19-20':"https://www.flashscore.com/football/england/premier-league-2019-2020/#/CxZEqxa7",
+    'PL19-20':"https://www.flashscore.com/football/england/premier-league-2019-2020/#/CxZEqxa7",
     'PL20-21':"https://www.flashscore.com/football/england/premier-league-2020-2021/#/zTRyeuJg",
     'PL21-22':"https://www.flashscore.com/football/england/premier-league-2021-2022/#/6kJqdMr2",
     'PL22-23':"https://www.flashscore.com/football/england/premier-league-2022-2023/#/nunhS7Vn",
     'PL23-24':"https://www.flashscore.com/football/england/premier-league-2023-2024/#/I3O5jpB2"
+}
+
+primeira_seasons = {
+    #'PR19-20': "https://www.flashscore.com/football/portugal/liga-portugal-2019-2020/#/r91KaWFr",
+    #'PR20-21': "https://www.flashscore.com/football/portugal/liga-portugal-2020-2021/#/6mtPHHfM",
+    #'PR21-22': "https://www.flashscore.com/football/portugal/liga-portugal-2021-2022/#/SYQdiOke",
+    'PR22-23': "https://www.flashscore.com/football/portugal/liga-portugal-2022-2023/#/0npsaei3",
+    'PR23-24': "https://www.flashscore.com/football/portugal/liga-portugal-2023-2024/#/xQ60fbmB",
 }
 
 jupiler_seasons = {
@@ -312,7 +320,7 @@ jupiler_seasons = {
     'JL23-24': "https://www.flashscore.com/football/belgium/jupiler-pro-league-2023-2024/#/G6IvtOdO",
 }
 
-eredivise_seasons = {
+eredivisie_seasons = {
     'ED19-20': "https://www.flashscore.com/football/netherlands/eredivisie-2019-2020/#/Ym9YtRCF",
     'ED20-21': "https://www.flashscore.com/football/netherlands/eredivisie-2020-2021/#/2D6NTKwA",
     'ED21-22': "https://www.flashscore.com/football/netherlands/eredivisie-2021-2022/#/SfQjVhXC",
@@ -328,5 +336,13 @@ turkiyesl_seasons = {
     'TSL23-24': "https://www.flashscore.com/football/turkey/super-lig-2023-2024/#/KzRFDJ4U",
 }
 
-for season in pl_seasons:
-    scrape_season(season, pl_seasons[season])
+botola_seasons = {
+    'Botola19-20': "https://www.flashscore.com/football/morocco/botola-pro-2019-2020/#/UoFOMiam",
+    'Botola20-21': "https://www.flashscore.com/football/morocco/botola-pro-2020-2021/#/O46wsvs5",
+    'Botola21-22': "https://www.flashscore.com/football/morocco/botola-pro-2021-2022/#/S0NSiyWK",
+    'Botola22-23': "https://www.flashscore.com/football/morocco/botola-pro-2022-2023/#/GKo7VnUn",
+    'Botola23-24': "https://www.flashscore.com/football/morocco/botola-pro-2023-2024/#/xEMmpc7l",
+}
+
+for season in primeira_seasons:
+    scrape_season(season, primeira_seasons[season])
