@@ -1,4 +1,5 @@
-# First, let's import our necessary libraries
+# This function will take more variables than the last one, with most of the code staying the same
+# And we'll apply it to multiple more seasons from flashscore
 
 import time
 
@@ -14,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # I opted to make a function that scrapes a whole season, with a given link, to organise our data how it suits us
 # Whether it is to work on multiple leagues in a single season, or a single league during multiple seasons
 
-def scrape_season(season_name, season_link):
+def scrape_season2(season_name, season_link):
 
     # And initialise the Selenium Webdriver
 
@@ -266,6 +267,16 @@ def scrape_season(season_name, season_link):
 # And finally, we'll test our function with the La Liga and Ligue 1 seasons:
 
 liga_seasons = {
+    'Liga09-10': "https://www.flashscore.com/football/spain/laliga-2009-2010/#/U5sTpd2G",
+    'Liga10-11': "https://www.flashscore.com/football/spain/laliga-2010-2011/#/E5ntFgfd",
+    'Liga11-12': "https://www.flashscore.com/football/spain/laliga-2011-2012/#/2ar1uWVA",
+    'Liga12-13': "https://www.flashscore.com/football/spain/laliga-2012-2013/#/lCDqolol/table/overall",
+    'Liga13-14': "https://www.flashscore.com/football/spain/laliga-2013-2014/#/0M9LMq9C/table/overall",
+    'Liga14-15': "https://www.flashscore.com/football/spain/laliga-2014-2015/#/EuKuM5MI/table/overall",
+    'Liga15-16': "https://www.flashscore.com/football/spain/laliga-2015-2016/#/IclHToOB/table/overall",
+    'Liga16-17': "https://www.flashscore.com/football/spain/laliga-2016-2017/#/rH7SFawI/table/overall",
+    'Liga17-18': "https://www.flashscore.com/football/spain/laliga-2017-2018/#/8COD1Gpp",
+    'Liga18-19': "https://www.flashscore.com/football/spain/laliga-2018-2019/#/IVm2O3QA/table/overall",
     'Liga23-24': "https://www.flashscore.com/football/spain/laliga-2023-2024/#/SbZJTabs",
     'Liga22-23': "https://www.flashscore.com/football/spain/laliga-2022-2023/#/COQ6iu30",
     'Liga21-22': "https://www.flashscore.com/football/spain/laliga-2021-2022/#/MPV5cuep",
@@ -274,6 +285,16 @@ liga_seasons = {
 }
 
 ligue1_seasons = {
+    'Ligue1_09-10': "",
+    'Ligue1_10-11': "",
+    'Ligue1_11-12': "",
+    'Ligue1_12-13': "",
+    'Ligue1_13-14': "",
+    'Ligue1_14-15': "",
+    'Ligue1_15-16': "",
+    'Ligue1_16-17': "",
+    'Ligue1_17-18': "",
+    'Ligue1_18-19': "",
     'Ligue1_19-20': "",
     'Ligue1_22-23': "https://www.flashscore.com/football/france/ligue-1-2022-2023/#/zmkW5aIi",
     'Ligue1_23-24': "https://www.flashscore.com/football/france/ligue-1-2023-2024/#/Q1sSPOn5",
@@ -298,6 +319,16 @@ bundelsiga_seasons = {
 }
 
 pl_seasons = {
+    'PL09-10': "https://www.flashscore.com/football/england/premier-league-2009-2010/#/COuk57Ci",
+    'PL10-11': "https://www.flashscore.com/football/england/premier-league-2010-2011/#/S0jBn4Ad",
+    'PL11-12': "https://www.flashscore.com/football/england/premier-league-2011-2012/#/xOR3gQta",
+    'PL12-13': "https://www.flashscore.com/football/england/premier-league-2012-2013/#/2wDJRkib",
+    'PL13-14': "https://www.flashscore.com/football/england/premier-league-2013-2014/#/Uc3Ascea",
+    'PL14-15': "https://www.flashscore.com/football/england/premier-league-2014-2015/#/U9wG88N6",
+    'PL15-16': "https://www.flashscore.com/football/england/premier-league-2015-2016/#/faBBhyuM",
+    'PL16-17': "https://www.flashscore.com/football/england/premier-league-2016-2017/#/fZHsKRg9",
+    'PL17-18': "https://www.flashscore.com/football/england/premier-league-2017-2018/#/WOO1nDO2",
+    'PL18-19': "https://www.flashscore.com/football/england/premier-league-2018-2019/#/v1t6uXL7",
     'PL19-20': "https://www.flashscore.com/football/england/premier-league-2019-2020/#/CxZEqxa7",
     'PL20-21': "https://www.flashscore.com/football/england/premier-league-2020-2021/#/zTRyeuJg",
     'PL21-22': "https://www.flashscore.com/football/england/premier-league-2021-2022/#/6kJqdMr2",
@@ -346,4 +377,4 @@ botola_seasons = {
 }
 
 for season in turkiyesl_seasons:
-    scrape_season(season, turkiyesl_seasons[season])
+    scrape_season2(season, turkiyesl_seasons[season])
