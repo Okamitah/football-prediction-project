@@ -285,17 +285,17 @@ liga_seasons = {
 }
 
 ligue1_seasons = {
-    'Ligue1_09-10': "",
-    'Ligue1_10-11': "",
-    'Ligue1_11-12': "",
-    'Ligue1_12-13': "",
-    'Ligue1_13-14': "",
-    'Ligue1_14-15': "",
-    'Ligue1_15-16': "",
-    'Ligue1_16-17': "",
-    'Ligue1_17-18': "",
-    'Ligue1_18-19': "",
-    'Ligue1_19-20': "",
+    'Ligue1_09-10': "https://www.flashscore.com/football/france/ligue-1-2009-2010/#/dUzTIwSF/table/overall",
+    'Ligue1_10-11': "https://www.flashscore.com/football/france/ligue-1-2010-2011/#/zmyAmj8m/table/overall",
+    'Ligue1_11-12': "https://www.flashscore.com/football/france/ligue-1-2011-2012/#/fsJkFcJg/table/overall",
+    'Ligue1_12-13': "https://www.flashscore.com/football/france/ligue-1-2012-2013/#/db6x80Ib/table/overall",
+    'Ligue1_13-14': "https://www.flashscore.com/football/france/ligue-1-2013-2014/#/G0rc7gAt/table/overall",
+    'Ligue1_14-15': "https://www.flashscore.com/football/france/ligue-1-2014-2015/#/EDRix5yC/table/overall",
+    'Ligue1_15-16': "https://www.flashscore.com/football/france/ligue-1-2015-2016/#/OIZw1WG1/table/overall",
+    'Ligue1_16-17': "https://www.flashscore.com/football/france/ligue-1-2016-2017/#/pSvKVQK1/table/overall",
+    'Ligue1_17-18': "https://www.flashscore.com/football/france/ligue-1-2017-2018/#/M5Lr4AbP/table/overall",
+    'Ligue1_18-19': "https://www.flashscore.com/football/france/ligue-1-2018-2019/#/8h0R5CTo/table/overall",
+    'Ligue1_19-20': "https://www.flashscore.com/football/france/ligue-1-2019-2020/#/2oEAASks/table/overall",
     'Ligue1_22-23': "https://www.flashscore.com/football/france/ligue-1-2022-2023/#/zmkW5aIi",
     'Ligue1_23-24': "https://www.flashscore.com/football/france/ligue-1-2023-2024/#/Q1sSPOn5",
     'Ligue1_21-22': "https://www.flashscore.com/football/france/ligue-1-2021-2022/#/0W4LIGb1",
@@ -303,6 +303,16 @@ ligue1_seasons = {
 }
 
 serieA_seasons = {
+    'SerieA09-10': "",
+    'SerieA10-11': "",
+    'SerieA11-12': "",
+    'SerieA12-13': "",
+    'SerieA13-14': "",
+    'SerieA14-15': "",
+    'SerieA15-16': "",
+    'SerieA16-17': "",
+    'SerieA17-18': "",
+    'SerieA18-19': "",
     'SerieA20-21': "https://www.flashscore.com/football/italy/serie-a-2020-2021/#/hKAgCv61",
     'SerieA21-22': "https://www.flashscore.com/football/italy/serie-a-2021-2022/#/YHxmuFsJ",
     'SerieA22-23': "https://www.flashscore.com/football/italy/serie-a-2022-2023/#/UcnjEEGS",
@@ -311,6 +321,16 @@ serieA_seasons = {
 }
 
 bundelsiga_seasons = {
+    'Bundes09-10': "",
+    'Bundes10-11': "",
+    'Bundes11-12': "",
+    'Bundes12-13': "",
+    'Bundes13-14': "",
+    'Bundes14-15': "",
+    'Bundes15-16': "",
+    'Bundes16-17': "",
+    'Bundes17-18': "",
+    'Bundes18-19': "",
     'Bundes19-20': "https://www.flashscore.com/football/germany/bundesliga-2019-2020/#/dAfCUJq0",
     'Bundes20-21': "https://www.flashscore.com/football/germany/bundesliga-2020-2021/#/bk1Zgnfk",
     'Bundes21-22': "https://www.flashscore.com/football/germany/bundesliga-2020-2021/#/bk1Zgnfk",
@@ -366,6 +386,50 @@ turkiyesl_seasons = {
     'TSL21-22': "https://www.flashscore.com/football/turkey/super-lig-2021-2022/#/zLsIuMTj",
     'TSL22-23': "https://www.flashscore.com/football/turkey/super-lig-2022-2023/#/lh8AshXk",
     'TSL23-24': "https://www.flashscore.com/football/turkey/super-lig-2023-2024/#/KzRFDJ4U",
+}
+
+greeksl_seasons = {
+
+}
+
+championship_seasons = {
+
+}
+
+mls_seasons = {
+
+}
+
+russiasl_seasons = {
+
+}
+
+superligaen_seasons = {
+
+}
+
+brasileirao_seasons = {
+
+}
+
+argentinapd_seasons = {
+
+}
+
+ligamx_seasons = {
+
+}
+
+roshn_seasons = {
+
+}
+
+zapsl_seasons = {
+
+}
+
+egyptpl_seasons = {
+
 }
 
 botola_seasons = {
