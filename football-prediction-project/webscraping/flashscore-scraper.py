@@ -259,7 +259,7 @@ def scrape_season(season_name, season_link):
     # We'll save our dataframe in a csv file
     # we'll call it for the seasons that we want and store them in the data directory
 
-    matches_data.to_csv(f'data2/{season_name}.csv')
+    matches_data.to_csv(f'data/{season_name}.csv')
 
     return
 
@@ -345,5 +345,5 @@ botola_seasons = {
     'Botola23-24': "https://www.flashscore.com/football/morocco/botola-pro-2023-2024/#/xEMmpc7l",
 }
 
-for season in turkiyesl_seasons:
-    scrape_season(season, turkiyesl_seasons[season])
+for season in jupiler_seasons:
+    scrape_season(season, jupiler_seasons[season])

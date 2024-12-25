@@ -140,221 +140,77 @@ def scrape_season2(season_name, season_link):
             away_score = WebDriverWait(driver, 20).until(EC.presence_of_element_located(
                 (By.XPATH, "(//div[@class='detailScore__wrapper']/span)[3]"))).text
 
-            stats_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Stats')]")
 
-            # Sometimes these buttons are stubborn, so we have to call in the big guns: ActionChains
+            try: # Not all seasons have stats on flashscore, but we still need the results nonetheless
 
-            actions.move_to_element(stats_button).perform()
-            stats_button.click()
-            driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
+                stats_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Stats')]")
 
-            home_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[1]"))).text
+                # Sometimes these buttons are stubborn, so we have to call in the big guns: ActionChains
 
-            home_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[2]"))).text
+                actions.move_to_element(stats_button).perform()
+                stats_button.click()
+                driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
+                time.sleep(1)
 
-            home_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[3]"))).text
+                home_stats = WebDriverWait(driver, 3).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW']")))
+                home_stats_txt = [stat.text for stat in home_stats]
 
-            home_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[4]"))).text
+                stats = WebDriverWait(driver, 1).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-category_7qsgP']")))
+                stats_txt = [stat.text for stat in stats]
 
-            home_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[5]"))).text
+                away_stats = WebDriverWait(driver, 1).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs']")))
+                away_stats_txt = [stat.text for stat in away_stats]
 
-            home_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[6]"))).text
+                match_stats = list(zip(stats_txt, home_stats_txt, away_stats_txt))
+                print(match_stats)
 
-            home_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[7]"))).text
+                fsthalf_button = driver.find_element(By.XPATH, "//button[contains(text(), '1st Half')]")
+                actions.move_to_element(fsthalf_button).perform()
+                fsthalf_button.click()
+                driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
+                time.sleep(1)
 
-            home_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[8]"))).text
+                home1_stats = WebDriverWait(driver, 5).until(EC.presence_of_element_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW']")))
+                home1_stats_txt = [stat.text for stat in home1_stats]
 
-            home_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[9]"))).text
+                fst_stats = WebDriverWait(driver, 1).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-category_7qsgP']")))
+                fst_stats_txt = [stat.text for stat in fst_stats]
 
-            home_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[10]"))).text
+                away1_stats = WebDriverWait(driver, 1).until(EC.presence_of_element_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs']")))
+                away1_stats_txt = [stat.text for stat in away1_stats]
 
-            home_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[11]"))).text
+                fsthalf_stats = list(zip(fst_stats_txt, home1_stats_txt, away1_stats_txt))
+                print(fsthalf_stats)
 
-            away_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[1]"))).text
+                sndhalf_button = driver.find_element(By.XPATH, "//button[contains(text(), '2nd Half')]")
+                actions.move_to_element(sndhalf_button).perform()
+                sndhalf_button.click()
+                driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
+                time.sleep(1)
 
-            away_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[2]"))).text
+                home2_stats = WebDriverWait(driver, 5).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW']")))
+                home2_stats_txt = [stat.text for stat in home2_stats]
 
-            away_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[3]"))).text
+                snd_stats = WebDriverWait(driver, 1).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-category_7qsgP']")))
+                snd_stats_txt = [stat.text for stat in snd_stats]
 
-            away_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[4]"))).text
+                away2_stats = WebDriverWait(driver, 1).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs']")))
+                away2_stats_txt = [stat.text for stat in away2_stats]
 
-            away_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[5]"))).text
+                sndhalf_stats = list(zip(snd_stats_txt, home2_stats_txt, away2_stats_txt))
+                print(sndhalf_stats)
 
-            away_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[6]"))).text
-
-            away_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[7]"))).text
-
-            away_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[8]"))).text
-
-            away_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[9]"))).text
-
-            away_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[10]"))).text
-
-            away_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[11]"))).text
-
-            fsthalf_button = driver.find_element(By.XPATH, "//button[contains(text(), '1st Half')]")
-            actions.move_to_element(fsthalf_button).perform()
-            fsthalf_button.click()
-            driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
-
-            home1_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[1]"))).text
-
-            home1_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[2]"))).text
-
-            home1_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[3]"))).text
-
-            home1_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[4]"))).text
-
-            home1_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[5]"))).text
-
-            home1_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[6]"))).text
-
-            home1_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[7]"))).text
-
-            home1_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[8]"))).text
-
-            home1_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[9]"))).text
-
-            home1_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[10]"))).text
-
-            home1_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[11]"))).text
-
-            away1_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[1]"))).text
-
-            away1_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[2]"))).text
-
-            away1_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[3]"))).text
-
-            away1_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[4]"))).text
-
-            away1_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[5]"))).text
-
-            away1_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[6]"))).text
-
-            away1_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[7]"))).text
-
-            away1_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[8]"))).text
-
-            away1_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[9]"))).text
-
-            away1_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[10]"))).text
-
-            away1_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[11]"))).text
-
-            sndhalf_button = driver.find_element(By.XPATH, "//button[contains(text(), '2nd Half')]")
-            actions.move_to_element(sndhalf_button).perform()
-            sndhalf_button.click()
-            driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
-
-            home2_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[1]"))).text
-
-            home2_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[2]"))).text
-
-            home2_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[3]"))).text
-
-            home2_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[4]"))).text
-
-            home2_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[5]"))).text
-
-            home2_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[6]"))).text
-
-            home2_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[7]"))).text
-
-            home2_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[8]"))).text
-
-            home2_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[9]"))).text
-
-            home2_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[10]"))).text
-
-            home2_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-homeValue_-iJBW'])[11]"))).text
-
-            away2_possession = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[1]"))).text
-
-            away2_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[2]"))).text
-
-            away2_song = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[3]"))).text
-
-            away2_soffg = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[4]"))).text
-
-            away2_blsh = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[5]"))).text
-
-            away2_corners = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[6]"))).text
-
-            away2_gksaves = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[7]"))).text
-
-            away2_offsides = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[8]"))).text
-
-            away2_fouls = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[9]"))).text
-
-            away2_goalattempts = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[10]"))).text
-
-            away2_yc = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//div[@class='wcl-value_IuyQw wcl-awayValue_rQvxs'])[11]"))).text
+            except Exception as e:
+                print("No stats")
 
             # Now we'll move to the lineups section of the match, so we get the ratings, formations and lineups:
 
@@ -367,50 +223,51 @@ def scrape_season2(season_name, season_link):
             driver.execute_script("window.scrollBy(0, window.innerHeight / 2);")
             time.sleep(2)
 
-            home_rating = WebDriverWait(driver, 30).until(EC.presence_of_element_located(
-                (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[1]"))).text
+            try:
+                home_rating = WebDriverWait(driver, 5).until(EC.presence_of_element_located(
+                    (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[1]"))).text
 
-            away_rating = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[2]"))).text
+                away_rating = WebDriverWait(driver, 1).until(EC.presence_of_element_located(
+                    (By.XPATH, "(//span[@class='wcl-caption_xZPDJ wcl-scores-caption-03_LG4YJ wcl-bold_slHaC'])[2]"))).text
 
-            home_formation = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//span[@class='lf__headerPart'])[1]"))).text
+            except Exception as e:
+                print("No rating")
 
-            away_formation = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, "(//span[@class='lf__headerPart'])[2]"))).text
+            try:
+                home_formation = WebDriverWait(driver, 1).until(EC.presence_of_element_located(
+                    (By.XPATH, "(//span[@class='lf__headerPart'])[1]"))).text
 
-            # We'll store the players names elements at first in a list
+                away_formation = WebDriverWait(driver, 1).until(EC.presence_of_element_located(
+                    (By.XPATH, "(//span[@class='lf__headerPart'])[2]"))).text
 
-            lineups_placement = driver.find_elements(By.XPATH,
-                    "//span[@class='wcl-caption_xZPDJ wcl-scores-caption-04_tdF7p wcl-captionEllipsis_YrmbS wcl-captionResponsive_lB-gc wcl-bold_slHaC']")
-
-            print(len(lineups_placement))
-
-            # Then we'll start adding the text (player's name) to a list
-
-            home_lineup = []
-
-            for player in lineups_placement[:11]:  # There are 11 players per team !
-                home_lineup.append(player.text)
-
-            away_lineup = []
-
-            for player in lineups_placement[11:]:
-                away_lineup.append(player.text)
+            except Exception as e:
+                print("No formation")
 
             odds_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Odds')]")
             actions.move_to_element(odds_button).perform()
             odds_button.click()
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            home_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-               (By.XPATH, "(//span[@class='oddsValueInner'])[1]"))).text
+            time.sleep(2)
 
-            draw_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-               (By.XPATH, "(//span[@class='oddsValueInner'])[2]"))).text
+            odds_data = {}
 
-            away_odds = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-               (By.XPATH, "(//span[@class='oddsValueInner'])[3]"))).text
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            try:
+                odds_rows = WebDriverWait(driver, 5).until(EC.presence_of_all_elements_located(
+                    (By.XPATH, "//div[@class='ui-table__row']")))
+
+                for row in odds_rows:
+
+                    bookmaker = row.find_element(By.CLASS_NAME, "oddsCell__bookmakerPart").text
+                    odds_1 = row.find_element(By.XPATH, "(//a[@class='oddsCell__odd'])[0]").text
+                    odds_0 = row.find_element(By.XPATH, "(//a[@class='oddsCell__odd'])[1]").text
+                    odds_2 = row.find_element(By.XPATH, "(//a[@class='oddsCell__odd'])[2]").text
+
+                    odds_data[bookmaker] = (odds_1, odds_0, odds_2)
+
+                print(list(odds_data.values()))
+
+            except Exception:
+                print("Error in odds")
+
             # For the outcome, we'll make 1 if the home team wins, 2 if the away team wins and 0 if it ends in a draw
 
             if home_score > away_score:
@@ -422,18 +279,56 @@ def scrape_season2(season_name, season_link):
 
             # And now that we've completed the data gathering, we'll add our row to the dataframe:
 
-            row = {"Home team name": home_team, "Away team name": away_team, "Outcome": outcome,
-                   "Home score": home_score, "Away score": away_score, "Home rating": home_rating, "Away rating": away_rating,
-                   "Home odds": home_odds, "Draw odds": draw_odds, "Away odds": away_odds,
-                    "Home xG": home_xG, "Away xG": away_xG, "Home possession": home_possession, "Away possession": away_possession,
-                    "Home lineups": home_lineup, "Away lineups": away_lineup,
-                   "Home Formation": home_formation, "Away formation": away_formation}
+            features = [
+                "Home team name", "Away team name", "Outcome", "Home score", "Away score",
+                "Home Expected Goals (xG)", "Away Expected Goals (xG)", "Home rating", "Away rating", "Bookie 1 odds", "Bookie 2 odds", "Bookie 3 odds", "Bookie 4 odds", "Bookie 5 odds", "Bookie 6 odds",
+                "Home Ball Possession", "Away Ball Possession", "Home Goal Attempts", "Away Goal Attempts", "Home Shots on Goal", "Away Shots on Goal",
+                "Home Shots off Goal", "Away Shots off Goal", "Home Blocked Shots", "Away Blocked Shots", "Home Corner Kicks", "Away Corner Kicks",
+                "Home Goalkeeper Saves", "Away Goalkeeper Saves", "Home Free Kicks", "Away Free Kicks", "Home Offsides", "Away Offsides",
+                "Home Fouls", "Away Fouls", "Home Yellow Cards", "Away Yellow Cards", "Home Throw-ins", "Away Throw-ins", "Home Passes", "Away Passes",
+                "Home 1 Expected Goals (xG)", "Away 1 Expected Goals (xG)", "Home 1 Ball Possession", "Away 1 Ball Possession", "Home 1 Goal Attempts", "Away 1 Goal Attempts", "Home 1 Shots on Goal", "Away 1 Shots on Goal",
+                "Home 1 Shots off Goal", "Away 1 Shots off Goal", "Home 1 Blocked Shots", "Away 1 Blocked Shots", "Home 1 Corner Kicks", "Away 1 Corner Kicks",
+                "Home 1 Goalkeeper Saves", "Away 1 Goalkeeper Saves", "Home 1 Free Kicks", "Away 1 Free Kicks", "Home 1 Offsides", "Away 1 Offsides",
+                "Home 1 Fouls", "Away 1 Fouls", "Home 1 Yellow Cards", "Away 1 Yellow Cards", "Home 1 Throw-ins", "Away 1 Throw-ins", "Home 1 Passes", "Away 1 Passes",
+                "Home 2 Expected Goals (xG)", "Away 2 Expected Goals (xG)", "Home 2 Ball Possession",
+                "Away 2 Ball Possession", "Home 2 Goal Attempts", "Away 2 Goal Attempts", "Home 2 Shots on Goal",
+                "Away 2 Shots on Goal",
+                "Home 2 Shots off Goal", "Away 2 Shots off Goal", "Home 2 Blocked Shots", "Away 2 Blocked Shots",
+                "Home 2 Corner Kicks", "Away 2 Corner Kicks",
+                "Home 2 Goalkeeper Saves", "Away 2 Goalkeeper Saves", "Home 2 Free Kicks", "Away 2 Free Kicks",
+                "Home 2 Offsides", "Away 2 Offsides",
+                "Home 2 Fouls", "Away 2 Fouls", "Home 2 Yellow Cards", "Away 2 Yellow Cards", "Home 2 Throw-ins",
+                "Away 2 Throw-ins", "Home 2 Passes", "Away 2 Passes",
+                "Home Formation", "Away formation"
+            ]
 
-            matches_data.loc[len(matches_data)] = row
+            row = {key: None for key in features}
 
-            print(f" Home team: {home_team}, {home_odds}, {home_score}, {home_SOT}, {home_xG}, {home_possession}, {home_rating}, {home_formation}, {len(home_lineup)}")
-            print(f" away team: {away_team}, {away_odds}, {away_score}, {away_SOT}, {away_xG}, {away_possession}, {away_rating}, {away_formation}, {len(away_lineup)}")
+            for stat in stats:
+                if f"Home {stat[0]}" in row:
+                    row[f"Home {stat[0]}"] = stat[1]
+                    row[f"Away {stat[0]}"] = stat[2]
+                else:
+                    print("Unexpected data")
 
+            for stat in fsthalf_stats:
+                if f"Home 1 {stat[0]}" in row:
+                    row[f"Home 1 {stat[0]}"] = stat[1]
+                    row[f"Away 1 {stat[0]}"] = stat[2]
+                else:
+                    print("Unexpected data")
+
+            for stat in sndhalf_stats:
+                if f"Home 2 {stat[0]}" in row:
+                    row[f"Home 2 {stat[0]}"] = stat[1]
+                    row[f"Away 2 {stat[0]}"] = stat[2]
+                else:
+                    print("Unexpected data")
+
+            for i, bookie in enumerate(odds_data):
+                row[f"Bookie {i+1} odds"] = (bookie, odds_data[bookie][0], odds_data[bookie][1], odds_data[bookie][2])
+
+            print(list(row.items()))
             # When we get done with a match, we'll close its window and move back to the main window
 
             driver.close()
@@ -534,6 +429,8 @@ bundelsiga_seasons = {
 }
 
 pl_seasons = {
+
+    'PL23-24': "https://www.flashscore.com/football/england/premier-league-2023-2024/#/I3O5jpB2",
     'PL09-10': "https://www.flashscore.com/football/england/premier-league-2009-2010/#/COuk57Ci",
     'PL10-11': "https://www.flashscore.com/football/england/premier-league-2010-2011/#/S0jBn4Ad",
     'PL11-12': "https://www.flashscore.com/football/england/premier-league-2011-2012/#/xOR3gQta",
@@ -547,8 +444,7 @@ pl_seasons = {
     'PL19-20': "https://www.flashscore.com/football/england/premier-league-2019-2020/#/CxZEqxa7",
     'PL20-21': "https://www.flashscore.com/football/england/premier-league-2020-2021/#/zTRyeuJg",
     'PL21-22': "https://www.flashscore.com/football/england/premier-league-2021-2022/#/6kJqdMr2",
-    'PL22-23': "https://www.flashscore.com/football/england/premier-league-2022-2023/#/nunhS7Vn",
-    'PL23-24': "https://www.flashscore.com/football/england/premier-league-2023-2024/#/I3O5jpB2"
+    'PL22-23': "https://www.flashscore.com/football/england/premier-league-2022-2023/#/nunhS7Vn"
 }
 
 primeira_seasons = {
@@ -635,5 +531,5 @@ botola_seasons = {
     'Botola23-24': "https://www.flashscore.com/football/morocco/botola-pro-2023-2024/#/xEMmpc7l",
 }
 
-for season in turkiyesl_seasons:
-    scrape_season2(season, turkiyesl_seasons[season])
+for season in pl_seasons:
+    scrape_season2(season, pl_seasons[season])
