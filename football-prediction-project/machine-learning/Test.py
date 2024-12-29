@@ -145,3 +145,6 @@ start_epoch = checkpoint['epoch']
 
 model.eval()
 evaluate_profitability(model, loader)
+
+# output:
+# Total Bets: 1770, Total Profit: 1345.17, ROI: 76.00%
