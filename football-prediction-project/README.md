@@ -84,4 +84,3 @@ Hyperparameter tuning was performed to optimize the model's performance.
 1. Clone this repository:
    ```bash
    git clone https://github.com/okamitah/football-prediction-project.git
-Install dependencies:
