@@ -146,5 +146,58 @@ start_epoch = checkpoint['epoch']
 model.eval()
 evaluate_profitability(model, loader)
 
+def find_value_bets(model, data_loader):
+    model.eval()
+    value_bets = []
+
+    with torch.no_grad():
+        for inputs, labels, odds in data_loader:
+            inputs, odds = inputs.to(device), odds.to(device)
+            outputs = model(inputs)
+
+            # Get model probabilities
+            probabilities = torch.softmax(outputs, dim=1)
+
+            # Calculate implied probabilities
+            implied_probabilities = 1 / odds
+
+            # Check for value bets
+            for i in range(inputs.size(0)):
+                value_bet_found = False
+                value_bet_info = {}
+
+                for outcome in range(3):  # 3 outcomes: Home Win, Draw, Away Win
+                    model_prob = probabilities[i, outcome].item()
+                    implied_prob = implied_probabilities[i, outcome].item()
+
+                    if model_prob > implied_prob:  # Value bet condition
+                        value_bet_found = True
+                        value_bet_info[outcome] = {
+                            'model_prob': model_prob,
+                            'implied_prob': implied_prob,
+                            'odds': odds[i, outcome].item(),
+                        }
+
+                if value_bet_found:
+                    value_bets.append({
+                        'game_index': i,
+                        'value_bet_info': value_bet_info,
+                    })
+
+    return value_bets
+
+value_bets = find_value_bets(model, loader)
+
+# Display value bets
+
+for bet in value_bets:
+    print(f"Game Index: {bet['game_index']}")
+    for outcome, info in bet['value_bet_info'].items():
+        outcome_label = ["Home Win", "Draw", "Away Win"][outcome]
+        print(f"  Outcome: {outcome_label}")
+        print(f"    Model Probability: {info['model_prob']:.2f}")
+        print(f"    Implied Probability: {info['implied_prob']:.2f}")
+        print(f"    Odds: {info['odds']:.2f}")
+
 # output:
 # Total Bets: 1770, Total Profit: 1345.17, ROI: 76.00%
