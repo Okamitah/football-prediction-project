@@ -14,16 +14,18 @@ pd.set_option('display.max_columns', None)
 
 # Import our files
 
-files = [f for f in os.listdir('/home/okamitah/git/football-prediction-project/data-analysis/ratings') if f.endswith('.csv')]
-data_frames = [pd.read_csv(os.path.join('/home/okamitah/git/football-prediction-project/data-analysis/ratings', f)) for f in files]
+files = [f for f in os.listdir('/home/okamitah/Projects/football-prediction-project/football-prediction-project/data-analysis/ratings') if f.endswith('.csv')]
+data_frames = [pd.read_csv(os.path.join('/home/okamitah/Projects/football-prediction-project/football-prediction-project/data-analysis/ratings', f)) for f in files]
 full_data = pd.concat(data_frames, ignore_index=True)
 
 # We'll add the rank difference, rating difference and result features (home - away) to make it one column insteadof two and normalize them
 
 full_data['Rank Difference'] = full_data['Home ranking'] - full_data['Away ranking']
+print(f"rankd_mean: {full_data['Rank Difference'].mean()} | rankd_std: {full_data['Rank Difference'].std()}")
 full_data['Rank Difference'] = (full_data['Rank Difference'] - full_data['Rank Difference'].mean()) / full_data['Rank Difference'].std()
 
 full_data['Rating Difference'] = full_data['Home Last Avg Rating'] - full_data['Away Last Avg Rating']
+print(f"ratingd_mean: {full_data['Rating Difference'].mean()} | ratingd_std: {full_data['Rating Difference'].std()}")
 full_data['Rating Difference'] = (full_data['Rating Difference'] - full_data['Rating Difference'].mean()) / full_data['Rating Difference'].std()
 
 full_data['Results'] = full_data['Home score'] - full_data['Away score']
@@ -34,8 +36,12 @@ full_data['Results'] = (full_data['Results'] - full_data['Results'].mean()) / fu
 
 features = ['Rank Difference', 'Rating Difference', 'Home odds', 'Draw odds', 'Away odds']
 
+
+
 X = full_data[features].values
 y = full_data['Label'].values
+
+print(f"rankd_mean: {full_data['Rank Difference'].mean()} | rankd_std: {full_data['Rank Difference'].std()}\nratingd_mean: {full_data['Rating Difference'].mean()} | ratingd_std: {full_data['Rating Difference'].std()}")
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
