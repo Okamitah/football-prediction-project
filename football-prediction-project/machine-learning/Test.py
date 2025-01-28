@@ -12,8 +12,8 @@ import pandas as pd
 
 pd.set_option('display.max_columns', None)
 
-files = [f for f in os.listdir('/home/okamitah/git/football-prediction-project/data-analysis/ratingst') if f.endswith('.csv')]
-data_frames = [pd.read_csv(os.path.join('/home/okamitah/git/football-prediction-project/data-analysis/ratingst', f)) for f in files]
+files = [f for f in os.listdir('/home/okamitah/Projects/football-prediction-project/football-prediction-project/data-analysis/ratingst') if f.endswith('.csv')]
+data_frames = [pd.read_csv(os.path.join('/home/okamitah/Projects/football-prediction-project/football-prediction-project/data-analysis/ratingst', f)) for f in files]
 full_data = pd.concat(data_frames, ignore_index=True)
 
 full_data['Rank Difference'] = full_data['Home ranking'] - full_data['Away ranking']
@@ -80,39 +80,6 @@ class BettingNN(nn.Module):
 
 model = BettingNN(input_size=5, num_classes=3).to(device)
 
-
-def custom_loss_function(predictions, labels, odds):
-    probabilities = torch.softmax(predictions, dim=1)
-
-    batch_size = labels.size(0)
-    ev = probabilities * odds
-
-    actual_ev = ev.gather(1, labels.unsqueeze(1)).squeeze()
-    loss = -actual_ev.mean()
-
-    return loss
-
-def train_model(model, train_loader, optimizer, num_epochs):
-    model.to(device)
-    model.train()
-    for epoch in range(num_epochs):
-        running_loss = 0.0
-        for inputs, labels, odds in train_loader:
-
-            inputs, labels, odds = inputs.to(device), labels.to(device), odds.to(device)
-
-            optimizer.zero_grad()
-
-            outputs = model(inputs)
-            loss = custom_loss_function(outputs, labels, odds)
-
-            loss.backward()
-            optimizer.step()
-
-            running_loss += loss.item()
-
-        if (epoch + 1) % 10 == 0:
-          print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {running_loss / len(train_loader):.4f}")
 
 def evaluate_profitability(model, test_loader):
     model.eval()
